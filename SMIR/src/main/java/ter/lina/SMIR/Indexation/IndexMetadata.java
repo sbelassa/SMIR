@@ -9,6 +9,7 @@ import java.util.Map;
 
 import org.apache.http.HttpHost;
 import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.action.search.SearchRequestBuilder;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.Client;
@@ -84,7 +85,7 @@ public class IndexMetadata {
          */
         Gson gson = new GsonBuilder().create();/// building a gson object
         Map jsonMap = gson.fromJson(json, Map.class);/// getting a map for the json file content
-       // System.out.println(jsonMap.get("content")); /// testing the map by demanding a field from the json map created from the json file : content-length
+       // System.out.println(jsonMap.get("File_content")); /// testing the map by demanding a field from the json map created from the json file : content-length
         
         //System.out.println(jsonMap.toString());
         /**
@@ -127,7 +128,7 @@ public class IndexMetadata {
         */
         
         ///second attempt
-        
+        /*
         SearchResponse responsee = client.prepareSearch("docs")
                 .setTypes("document")
                 .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
@@ -136,6 +137,7 @@ public class IndexMetadata {
                 .get();
         
         System.out.println(responsee);
+        */
         
         
         /// third attempt
@@ -145,7 +147,19 @@ public class IndexMetadata {
         
         
         /// 4th attempt
-      
+        SearchRequestBuilder searchRequestBuilder = client.prepareSearch()
+                .setIndices("docs")
+                .setTypes("document")
+                .setQuery(QueryBuilders.queryString("diiiv"))
+                .addField("file.file");
+
+        SearchResponse responsee = searchRequestBuilder.execute().actionGet();
+        if (responsee != null) {
+            
+        System.out.println(responsee.toString());
+        }  else {
+        	System.out.println("no result for your research");
+        }
 		
 	}
 
