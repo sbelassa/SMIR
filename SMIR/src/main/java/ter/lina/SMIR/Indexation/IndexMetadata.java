@@ -13,6 +13,8 @@ import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
+
 import static org.elasticsearch.index.query.QueryBuilders.*;
 import org.elasticsearch.node.Node;
 import org.elasticsearch.node.NodeBuilder;
@@ -96,14 +98,14 @@ public class IndexMetadata {
         /**
          * testing the indexing 
          */
-		IndexResponse response = client.prepareIndex("myfile", "tweet")
+		IndexResponse response = client.prepareIndex("docs", "document")
 								       .setSource(json)
 								       .execute().actionGet();
 
         if (response != null) {
             
         	System.out.println("Index has been created !");
-            JavaAPIMain.getDocument(client, "myfile", "tweet", "1"); ///getting back the client, index, type, id
+            JavaAPIMain.getDocument(client, "docs", "document", "1"); ///getting back the client, index, type, id
           } else {
             System.err.println("Index creation failed.");
           }
@@ -116,25 +118,25 @@ public class IndexMetadata {
         ///first attempt
        /*
         SearchResponse responsee = client.prepareSearch("myfile")
-                .setQuery(QueryBuilders.matchQuery("content", "</div>"))
+                .setQuery(QueryBuilders.matchQuery("File_content", "</div>"))
                 .execute()
                 .actionGet();
 
-        System.out.println("searchKeyWord : " + response);
+        System.out.println("search KeyWord : " + response);
+        
         */
         
-        
         ///second attempt
-        /*
-        SearchResponse responsee = client.prepareSearch("myfile")
-                .setTypes("tweet")
+        
+        SearchResponse responsee = client.prepareSearch("docs")
+                .setTypes("document")
                 .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
-                .setQuery(QueryBuilders.termQuery("content", "</div>")) // Query
+                .setQuery(QueryBuilders.termQuery("File_content", "</div>")) // Query
                 .setFrom(0).setSize(60).setExplain(true)
                 .get();
         
         System.out.println(responsee);
-        */
+        
         
         /// third attempt
         /*SearchResponse responsex = client.prepareSearch().get();
