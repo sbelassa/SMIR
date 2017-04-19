@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="date" content="2015-09-10T11:26:25Z"/>
+<meta name="pdf:PDFVersion" content="1.3"/>
+<meta name="pdf:docinfo:title" content="Cours1.key"/>
+<meta name="xmp:CreatorTool" content="Keynote"/>
+<meta name="access_permission:modify_annotations" content="true"/>
+<meta name="access_permission:can_print_degraded" content="true"/>
+<meta name="dcterms:created" content="2015-09-10T11:26:25Z"/>
+<meta name="Last-Modified" content="2015-09-10T11:26:25Z"/>
+<meta name="dcterms:modified" content="2015-09-10T11:26:25Z"/>
+<meta name="dc:format" content="application/pdf; version=1.3"/>
+<meta name="Last-Save-Date" content="2015-09-10T11:26:25Z"/>
+<meta name="pdf:docinfo:creator_tool" content="Keynote"/>
+<meta name="access_permission:fill_in_form" content="true"/>
+<meta name="pdf:docinfo:modified" content="2015-09-10T11:26:25Z"/>
+<meta name="meta:save-date" content="2015-09-10T11:26:25Z"/>
+<meta name="pdf:encrypted" content="false"/>
+<meta name="dc:title" content="Cours1.key"/>
+<meta name="modified" content="2015-09-10T11:26:25Z"/>
+<meta name="Content-Length" content="4049005"/>
+<meta name="Content-Type" content="application/pdf"/>
+<meta name="X-Parsed-By" content="org.apache.tika.parser.DefaultParser"/>
+<meta name="X-Parsed-By" content="org.apache.tika.parser.pdf.PDFParser"/>
+<meta name="meta:creation-date" content="2015-09-10T11:26:25Z"/>
+<meta name="created" content="Thu Sep 10 13:26:25 CEST 2015"/>
+<meta name="access_permission:extract_for_accessibility" content="true"/>
+<meta name="access_permission:assemble_document" content="true"/>
+<meta name="xmpTPg:NPages" content="39"/>
+<meta name="Creation-Date" content="2015-09-10T11:26:25Z"/>
+<meta name="resourceName" content="Partie 1 : présentation du module: objectifs Fichier.pdf"/>
+<meta name="access_permission:extract_content" content="true"/>
+<meta name="access_permission:can_print" content="true"/>
+<meta name="producer" content="Mac OS X 10.10.3 Quartz PDFContext"/>
+<meta name="access_permission:can_modify" content="true"/>
+<meta name="pdf:docinfo:producer" content="Mac OS X 10.10.3 Quartz PDFContext"/>
+<meta name="pdf:docinfo:created" content="2015-09-10T11:26:25Z"/>
+<title>Cours1.key</title>
+</head>
+<body><div class="page"><p/>
+<p>Cours d’introduction à 
+l’informatique
+</p>
+<p>Partie 1 : Pourquoi apprendre l’informatique ? 
+Quels outils pour ce cours ?</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi étudier l’informatique ?
+Pour devenir informaticien(ne)
+ ~forte demande (&gt;40000 emplois/an d’informaticiens non pourvus) 
+</p>
+<p>Pour occuper tout emploi de niveau technicien supérieur ou 
+ingénieur
+ « outil numérique » central dans les métiers d’aujourd’hui, 
+nécessaire de le dompter pour rester « dans le coup » 
+</p>
+<p>En quoi un mathématicien/physicien/chimiste/et autre doit-il se 
+former en informatique
+ Numérisation massive du monde qui nous entoure (y compris ce 
+qu’on observe), besoin de manipuler des données pour comprendre 
+le monde « moderne »</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Informatique : une définition
+</p>
+<p>• «Information is Information, no Matter, nor Energy»  
+Wiener 1968 
+</p>
+<p>• On travaille sur l’Information (range, ordonne, 
+transforme, transmet,…)
+</p>
+<p>L'informatique est le domaine d'activité scientifique, technique et industriel 
+concernant le traitement automatique de l'information par des machines telles 
+que : calculateur, système embarqué, ordinateur, console de jeux vidéo, robot, 
+automate, etc. 
+</p>
+<p>[Wikipedia]
+</p>
+<p>« La science informatique n'est pas plus la science des ordinateurs que 
+l'astronomie n'est celle des télescopes. »  — Edsger Dĳkstra </p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi de l’informatique ?
+• Outil scientifique incontournable sur la scène interna-
+</p>
+<p>tionale 
+</p>
+<p>• Domaine scientifique omni-présent 
+</p>
+<p>• Science de communication, et source d’échanges 
+scientifi-ques avec les autres disciplines 
+</p>
+<p>• Vecteur de progrès technologiques, science de 
+société 
+</p>
+<p>• Une diversité thématique insoupçonnée </p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi de l’informatique ?
+• Outil scientifique incontournable sur la scène interna-
+</p>
+<p>tionale 
+</p>
+<p>• Domaine scientifique omni-présent 
+</p>
+<p>• Science de communication, et source d’échanges 
+scientifi-ques avec les autres disciplines 
+</p>
+<p>• Vecteur de progrès technologiques, science de 
+société 
+</p>
+<p>• Une diversité thématique insoupçonnée </p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi de l’informatique ?
+• Outil scientifique incontournable sur la scène interna-
+</p>
+<p>tionale 
+</p>
+<p>• Domaine scientifique omni-présent 
+</p>
+<p>• Science de communication, et source d’échanges 
+scientifi-ques avec les autres disciplines 
+</p>
+<p>• Vecteur de progrès technologiques, science de 
+société 
+</p>
+<p>• Une diversité thématique insoupçonnée </p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi de l’informatique ?
+• Outil scientifique incontournable sur la scène interna-
+</p>
+<p>tionale 
+</p>
+<p>• Domaine scientifique omni-présent 
+</p>
+<p>• Science de communication, et source d’échanges 
+scientifi-ques avec les autres disciplines 
+</p>
+<p>• Vecteur de progrès technologiques, science de 
+société 
+</p>
+<p>• Une diversité thématique insoupçonnée </p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi de l’informatique ?
+• Outil scientifique incontournable sur la scène interna-
+</p>
+<p>tionale 
+</p>
+<p>• Domaine scientifique omni-présent 
+</p>
+<p>• Science de communication, et source d’échanges 
+scientifi-ques avec les autres disciplines 
+</p>
+<p>• Vecteur de progrès technologiques, science de 
+société 
+</p>
+<p>• Une diversité thématique insoupçonnée </p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi de l’informatique ?
+• Outil scientifique incontournable sur la scène interna-
+</p>
+<p>tionale 
+</p>
+<p>• Domaine scientifique omni-présent 
+</p>
+<p>• Science de communication, et source d’échanges 
+scientifi-ques avec les autres disciplines 
+</p>
+<p>• Vecteur de progrès technologiques, science de 
+société 
+</p>
+<p>• Une diversité thématique insoupçonnée </p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Aspects généraux
+• En quoi un scientifique aujourd’hui doit-il maîtriser l’informatique 
+</p>
+<p>? 
+</p>
+<p>• De l’informatique pour scientifiques : 
+</p>
+<p>• Modélisation 
+</p>
+<p>• Traitement de mesures 
+</p>
+<p>• Analyse de données 
+</p>
+<p>• Simulations 
+</p>
+<p>• Gestion de données</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Début du cours 
+d’algorithmique
+</p>
+<p>• Le but est d’apprendre à écrire des algorithmes 
+(simples) 
+</p>
+<p>• un algorithme = l’écriture dans un langage non 
+ambigu d'une méthode de résolution d'un 
+problème.</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi a-t-on besoin 
+d’écrire de bons algorithmes
+• Il y a très longtemps: Machine à calculer de 
+</p>
+<p>Babbage (~1834) 
+</p>
+<p>• Instructions stockées sur des cartes perforées. 
+</p>
+<p>• Une instruction lue par tour de manivelle. 
+</p>
+<p>• Enjeu: diminuer le nombre de tours de manivelles 
+(énergie) et le nombre de pièces nécessaires à 
+construire la machine. 
+</p>
+<p>Notion de complexité en temps (nb de tours de manivelle=énergie) et en espace (nb de pièces).</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi a-t-on besoin 
+d’écrire de bons algorithmes
+• Il y a très longtemps: Machine à calculer de 
+</p>
+<p>Babbage (~1834) 
+</p>
+<p>• Instructions stockées sur des cartes perforées. 
+</p>
+<p>• Une instruction lue par tour de manivelle. 
+</p>
+<p>• Enjeu: diminuer le nombre de tours de manivelles 
+(énergie) et le nombre de pièces nécessaires à 
+construire la machine. 
+</p>
+<p>Notion de complexité en temps (nb de tours de manivelle=énergie) et en espace (nb de pièces).</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi a-t-on besoin 
+d’écrire de bons algorithmes
+• Il y a très longtemps: Machine à calculer de 
+</p>
+<p>Babbage (~1834) 
+</p>
+<p>• Instructions stockées sur des cartes perforées. 
+</p>
+<p>• Une instruction lue par tour de manivelle. 
+</p>
+<p>• Enjeu: diminuer le nombre de tours de manivelles 
+(énergie) et le nombre de pièces nécessaires à 
+construire la machine. 
+</p>
+<p>Notion de complexité en temps (nb de tours de manivelle=énergie) et en espace (nb de pièces).</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi a-t-on toujours besoin 
+d’écrire de bons algorithmes
+</p>
+<p>• Aujourd’hui encore plus primordial 
+</p>
+<p>• Réduire le nombre d’instructions = réduire la 
+consommation = allonger la durée de vie de la 
+batterie 
+</p>
+<p>• Retour à des machines avec moins de puissance 
+de calcul 
+</p>
+<p>• Problèmes environnementaux -&gt; greenIT</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pourquoi a-t-on toujours besoin 
+d’écrire de bons algorithmes
+</p>
+<p>• Aujourd’hui encore plus primordial 
+</p>
+<p>• Réduire le nombre d’instructions = réduire la 
+consommation = allonger la durée de vie de la 
+batterie 
+</p>
+<p>• Retour à des machines avec moins de puissance 
+de calcul 
+</p>
+<p>• Problèmes environnementaux -&gt; greenIT</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmes
+</p>
+<p>• L'algorithme permet d'exécuter et d’étudier cette 
+méthode de résolution 
+</p>
+<p>• Un exemple « difficile »: calculer une puissance </p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmes
+</p>
+<p>Version 1 
+puissance ← 1 
+répéter 2k fois 
+ puissance ← puissance × x 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Version 2 
+puissance ← x 
+répéter k fois 
+ puissance ← puissance2 
+</p>
+<p>Restituer le résultat</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmes
+Version 1 
+</p>
+<p>puissance ← 1 
+répéter 2k fois 
+ puissance ← puissance × x 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Version 2 
+puissance ← x 
+répéter k fois 
+ puissance ← puissance2 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Un exemple d’exécution pour x=3 et k=4 pour calculer 316</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmes
+Version 1 
+</p>
+<p>puissance ← 1 
+répéter 2k fois 
+ puissance ← puissance × x 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Version 2 
+puissance ← x 
+répéter k fois 
+ puissance ← puissance2 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Un exemple d’exécution pour x=3 et k=4 pour calculer 316Version 1 
+puissance ← 1 
+ puissance ← puissance × 3    ☞ puissance vaut 3 
+ puissance ← puissance × 3    ☞ puissance vaut 9 
+ puissance ← puissance × 3    ☞ puissance vaut 27 
+ puissance ← puissance × 3    ☞ puissance vaut 81 
+ puissance ← puissance × 3    ☞ puissance vaut 243 
+ puissance ← puissance × 3    ☞ puissance vaut 729 
+ puissance ← puissance × 3    ☞ puissance vaut 2187 
+ puissance ← puissance × 3    ☞ puissance vaut 6561 
+ puissance ← puissance × 3    ☞ puissance vaut 19683 
+ puissance ← puissance × 3    ☞ puissance vaut 59049 
+ puissance ← puissance × 3    ☞ puissance vaut 177147 
+ puissance ← puissance × 3    ☞ puissance vaut 531441 </p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmes
+Version 1 
+</p>
+<p>puissance ← 1 
+répéter 2k fois 
+ puissance ← puissance × x 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Version 2 
+puissance ← x 
+répéter k fois 
+ puissance ← puissance2 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Un exemple d’exécution pour x=3 et k=4 pour calculer 316Version 1 puissance ← 1 
+ puissance ← puissance × 3    ☞ puissance vaut 3 
+ puissance ← puissance × 3    ☞ puissance vaut 9 
+ puissance ← puissance × 3    ☞ puissance vaut 27 
+ puissance ← puissance × 3    ☞ puissance vaut 81 
+ puissance ← puissance × 3    ☞ puissance vaut 243 
+ puissance ← puissance × 3    ☞ puissance vaut 729 
+ puissance ← puissance × 3    ☞ puissance vaut 2187 
+ puissance ← puissance × 3    ☞ puissance vaut 6561 
+ puissance ← puissance × 3    ☞ puissance vaut 19683 
+ puissance ← puissance × 3    ☞ puissance vaut 59049 
+ puissance ← puissance × 3    ☞ puissance vaut 177147 
+ puissance ← puissance × 3    ☞ puissance vaut 531441 
+ puissance ← puissance × 3    ☞ puissance vaut 1594323 
+ puissance ← puissance × 3    ☞ puissance vaut 4782969 
+ puissance ← puissance × 3    ☞ puissance vaut 14348907 
+ puissance ← puissance × 3    ☞ puissance vaut 43046721 
+</p>
+<p>Restituer le résultat = 43046721</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmes
+Version 1 
+</p>
+<p>puissance ← 1 
+répéter 2k fois 
+ puissance ← puissance × x 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Version 2 
+puissance ← x 
+répéter k fois 
+ puissance ← puissance2 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Un exemple d’exécution pour x=3 et k=4 pour calculer 316Version 1 puissance ← 1 
+ puissance ← puissance × 3    ☞ puissance vaut 3 
+ puissance ← puissance × 3    ☞ puissance vaut 9 
+ puissance ← puissance × 3    ☞ puissance vaut 27 
+ puissance ← puissance × 3    ☞ puissance vaut 81 
+ puissance ← puissance × 3    ☞ puissance vaut 243 
+ puissance ← puissance × 3    ☞ puissance vaut 729 
+ puissance ← puissance × 3    ☞ puissance vaut 2187 
+ puissance ← puissance × 3    ☞ puissance vaut 6561 
+ puissance ← puissance × 3    ☞ puissance vaut 19683 
+ puissance ← puissance × 3    ☞ puissance vaut 59049 
+ puissance ← puissance × 3    ☞ puissance vaut 177147 
+ puissance ← puissance × 3    ☞ puissance vaut 531441 
+ puissance ← puissance × 3    ☞ puissance vaut 1594323 
+ puissance ← puissance × 3    ☞ puissance vaut 4782969 
+ puissance ← puissance × 3    ☞ puissance vaut 14348907 
+ puissance ← puissance × 3    ☞ puissance vaut 43046721 
+</p>
+<p>Restituer le résultat = 43046721
+</p>
+<p>Version 2 
+puissance ← 3 
+ puissance ← puissance2   ☞ puissance vaut 9 
+ puissance ← puissance2   ☞ puissance vaut 81 
+ puissance ← puissance2   ☞ puissance vaut 6561 
+ puissance ← puissance2   ☞ puissance vaut 43046721 
+</p>
+<p>Restituer le résultat = 43046721</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmes
+Version 1 
+</p>
+<p>puissance ← 1 
+répéter 2k fois 
+ puissance ← puissance × x 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Version 2 
+puissance ← x 
+répéter k fois 
+ puissance ← puissance2 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Un exemple d’exécution pour x=3 et k=4 pour calculer 316Version 1 puissance ← 1 
+ puissance ← puissance × 3    ☞ puissance vaut 3 
+ puissance ← puissance × 3    ☞ puissance vaut 9 
+ puissance ← puissance × 3    ☞ puissance vaut 27 
+ puissance ← puissance × 3    ☞ puissance vaut 81 
+ puissance ← puissance × 3    ☞ puissance vaut 243 
+ puissance ← puissance × 3    ☞ puissance vaut 729 
+ puissance ← puissance × 3    ☞ puissance vaut 2187 
+ puissance ← puissance × 3    ☞ puissance vaut 6561 
+ puissance ← puissance × 3    ☞ puissance vaut 19683 
+ puissance ← puissance × 3    ☞ puissance vaut 59049 
+ puissance ← puissance × 3    ☞ puissance vaut 177147 
+ puissance ← puissance × 3    ☞ puissance vaut 531441 
+ puissance ← puissance × 3    ☞ puissance vaut 1594323 
+ puissance ← puissance × 3    ☞ puissance vaut 4782969 
+ puissance ← puissance × 3    ☞ puissance vaut 14348907 
+ puissance ← puissance × 3    ☞ puissance vaut 43046721 
+</p>
+<p>Restituer le résultat = 43046721
+</p>
+<p>Version 2 
+puissance ← 3 
+ puissance ← puissance2   ☞ puissance vaut 9 
+ puissance ← puissance2   ☞ puissance vaut 81 
+ puissance ← puissance2   ☞ puissance vaut 6561 
+ puissance ← puissance2   ☞ puissance vaut 43046721 
+</p>
+<p>Restituer le résultat = 43046721</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmes
+Version 1 
+</p>
+<p>puissance ← 1 
+répéter 2k fois 
+ puissance ← puissance × x 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Version 2 
+puissance ← x 
+répéter k fois 
+ puissance ← puissance2 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Un exemple d’exécution pour x=3 et k=4 pour calculer 316Version 1 puissance ← 1 
+ puissance ← puissance × 3    ☞ puissance vaut 3 
+ puissance ← puissance × 3    ☞ puissance vaut 9 
+ puissance ← puissance × 3    ☞ puissance vaut 27 
+ puissance ← puissance × 3    ☞ puissance vaut 81 
+ puissance ← puissance × 3    ☞ puissance vaut 243 
+ puissance ← puissance × 3    ☞ puissance vaut 729 
+ puissance ← puissance × 3    ☞ puissance vaut 2187 
+ puissance ← puissance × 3    ☞ puissance vaut 6561 
+ puissance ← puissance × 3    ☞ puissance vaut 19683 
+ puissance ← puissance × 3    ☞ puissance vaut 59049 
+ puissance ← puissance × 3    ☞ puissance vaut 177147 
+ puissance ← puissance × 3    ☞ puissance vaut 531441 
+ puissance ← puissance × 3    ☞ puissance vaut 1594323 
+ puissance ← puissance × 3    ☞ puissance vaut 4782969 
+ puissance ← puissance × 3    ☞ puissance vaut 14348907 
+ puissance ← puissance × 3    ☞ puissance vaut 43046721 
+</p>
+<p>Restituer le résultat = 43046721
+</p>
+<p>Version 2 
+puissance ← 3 
+ puissance ← puissance2   ☞ puissance vaut 9 
+ puissance ← puissance2   ☞ puissance vaut 81 
+ puissance ← puissance2   ☞ puissance vaut 6561 
+ puissance ← puissance2   ☞ puissance vaut 43046721 
+</p>
+<p>Restituer le résultat = 43046721
+</p>
+<p>Etudier l’algorithme, c’est dire par exemple que:
+1) les deux versions ont besoin d’une seule 
+</p>
+<p>« mémoire » (pour stocker la valeur de puissance) 
+2) La première version a besoin d’effectuer 2k 
+</p>
+<p>multiplications pour arriver au résultat 
+3) La deuxième version n’a besoin que de k 
+</p>
+<p>multiplications pour arriver au même résultat 
+…et conclure que la deuxième version est meilleure 
+que la première…</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmes
+Version 1 
+</p>
+<p>puissance ← 1 
+répéter 2k fois 
+ puissance ← puissance × x 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Version 2 
+puissance ← x 
+répéter k fois 
+ puissance ← puissance2 
+</p>
+<p>Restituer le résultat
+</p>
+<p>Un exemple d’exécution pour x=3 et k=4 pour calculer 316Version 1 puissance ← 1 
+ puissance ← puissance × 3    ☞ puissance vaut 3 
+ puissance ← puissance × 3    ☞ puissance vaut 9 
+ puissance ← puissance × 3    ☞ puissance vaut 27 
+ puissance ← puissance × 3    ☞ puissance vaut 81 
+ puissance ← puissance × 3    ☞ puissance vaut 243 
+ puissance ← puissance × 3    ☞ puissance vaut 729 
+ puissance ← puissance × 3    ☞ puissance vaut 2187 
+ puissance ← puissance × 3    ☞ puissance vaut 6561 
+ puissance ← puissance × 3    ☞ puissance vaut 19683 
+ puissance ← puissance × 3    ☞ puissance vaut 59049 
+ puissance ← puissance × 3    ☞ puissance vaut 177147 
+ puissance ← puissance × 3    ☞ puissance vaut 531441 
+ puissance ← puissance × 3    ☞ puissance vaut 1594323 
+ puissance ← puissance × 3    ☞ puissance vaut 4782969 
+ puissance ← puissance × 3    ☞ puissance vaut 14348907 
+ puissance ← puissance × 3    ☞ puissance vaut 43046721 
+</p>
+<p>Restituer le résultat = 43046721
+</p>
+<p>Version 2 
+puissance ← 3 
+ puissance ← puissance2   ☞ puissance vaut 9 
+ puissance ← puissance2   ☞ puissance vaut 81 
+ puissance ← puissance2   ☞ puissance vaut 6561 
+ puissance ← puissance2   ☞ puissance vaut 43046721 
+</p>
+<p>Restituer le résultat = 43046721
+</p>
+<p>Etudier l’algorithme, c’est dire par exemple que:
+1) les deux versions ont besoin d’une seule 
+</p>
+<p>« mémoire » (pour stocker la valeur de puissance) 
+2) La première version a besoin d’effectuer 2k 
+</p>
+<p>multiplications pour arriver au résultat 
+3) La deuxième version n’a besoin que de k 
+</p>
+<p>multiplications pour arriver au même résultat 
+…et conclure que la deuxième version est meilleure 
+que la première…
+</p>
+<p>L’algorithme 2 se généralise pour 
+n’importe quelle puissance xn. 
+</p>
+<p>Il porte le nom d’exponentiation rapide.
+</p>
+<p>C’est certainement un des algorithmes exécuté le plus 
+souvent (à la base de beaucoup de systèmes de protection 
+</p>
+<p>de données)</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Ce qu’on va apprendre dans 
+ce cours sur les algorithmes
+</p>
+<p>• Un langage « simple », commun qui permet de décrire 
+sans ambiguité les opérations « mathématiques/
+informatiques » qui permettent d’arriver à résoudre un 
+problème 
+</p>
+<p>• Langage « algorithmique », codifié par un vocabulaire 
+et une syntaxe qu’il convient de respecter pour partager 
+un algorithme. 
+</p>
+<p>• Utilisation de ce qui est appris pour résoudre des 
+problèmes dans de nombreuses disciplines de 
+l’informatique</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Organisation du cours
+</p>
+<p>Réseaux sociaux
+Facebook et cie: quelle théorie 
+</p>
+<p>derrière ces outils ?
+</p>
+<p>Bioinformatique
+L’algorithmique pour traiter des données 
+</p>
+<p>de la biologie, un exemple de 
+pluridisciplinarité.
+</p>
+<p>Traitement automatique des langues
+Les particularités des données textuelles: 
+</p>
+<p>traitements algorithmiques
+</p>
+<p>Séance de récapitulation
+</p>
+<p>Cryptographie et TI
+Comment s’échanger de 
+</p>
+<p>l’information efficacement et de 
+manière sûre ?
+</p>
+<p>Algorithmique
+Introduction de quelques bases pour travailler  
+</p>
+<p>(variables, types, instructions, structures de contrôle, fonctions et tableaux)</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Organisation du cours
+</p>
+<p>Réseaux sociaux
+Facebook et cie: quelle théorie 
+</p>
+<p>derrière ces outils ?
+</p>
+<p>Bioinformatique
+L’algorithmique pour traiter des données 
+</p>
+<p>de la biologie, un exemple de 
+pluridisciplinarité.
+</p>
+<p>Traitement automatique des langues
+Les particularités des données textuelles: 
+</p>
+<p>traitements algorithmiques
+</p>
+<p>Séance de récapitulation
+</p>
+<p>Cryptographie et TI
+Comment s’échanger de 
+</p>
+<p>l’information efficacement et de 
+manière sûre ?
+</p>
+<p>Algorithmique
+Introduction de quelques bases pour travailler  
+</p>
+<p>(variables, types, instructions, structures de contrôle, fonctions et tableaux)
+</p>
+<p>Evalu
+ation
+</p>
+<p> des 
+conn
+</p>
+<p>aissa
+nces
+</p>
+<p> pour
+ les c
+</p>
+<p>ours
+</p>
+<p>(Que
+stion
+</p>
+<p>s de 
+cour
+</p>
+<p>s)</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmique vs 
+programmation
+</p>
+<p>• L’algorithmique: écriture de méthodes de résolution de 
+problèmes dans une forme compréhensible par un 
+humain. 
+</p>
+<p>• La programmation: écriture de méthodes de résolution 
+de problèmes dans une forme interprétable par une 
+machine. 
+</p>
+<p>• Il faut aussi un langage codifié pour les programmes…. 
+</p>
+<p>• Il en existe beaucoup (plus de 1000 dont plus de100 
+qui sont utilisés couramment)</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmique vs 
+programmation
+</p>
+<p>• L’algorithmique: écriture de méthodes de résolution de 
+problèmes dans une forme compréhensible par un 
+humain. 
+</p>
+<p>• La programmation: écriture de méthodes de résolution 
+de problèmes dans une forme interprétable par une 
+machine. 
+</p>
+<p>• Il faut aussi un langage codifié pour les programmes…. 
+</p>
+<p>• Il en existe beaucoup (plus de 1000 dont plus de100 
+qui sont utilisés couramment)
+</p>
+<p>Réso
+lution
+</p>
+<p> d’ex
+ercic
+</p>
+<p>es en
+ TD
+</p>
+<p>(au m
+oins 
+</p>
+<p>deux
+ CC)</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Algorithmique vs 
+programmation
+</p>
+<p>• L’algorithmique: écriture de méthodes de résolution de 
+problèmes dans une forme compréhensible par un 
+humain. 
+</p>
+<p>• La programmation: écriture de méthodes de résolution 
+de problèmes dans une forme interprétable par une 
+machine. 
+</p>
+<p>• Il faut aussi un langage codifié pour les programmes…. 
+</p>
+<p>• Il en existe beaucoup (plus de 1000 dont plus de100 
+qui sont utilisés couramment)
+</p>
+<p>Réso
+lution
+</p>
+<p> d’ex
+ercic
+</p>
+<p>es en
+ TD
+</p>
+<p>(au m
+oins 
+</p>
+<p>deux
+ CC)
+</p>
+<p>Codage
+ d’algor
+</p>
+<p>ithmes 
+en TP
+</p>
+<p>(au moi
+ns deux
+</p>
+<p> TP not
+és + pro
+</p>
+<p>jet)</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Javascript
+• Javascript est langage de programmation interprété et défini par 
+</p>
+<p>un standard. Il est supporté par tous les navigateurs (mise à 
+disposition d’un environnement de programmation qui tourne 
+même sur smartphone et ipad !) 
+</p>
+<p>• Le web se développe: «Lars Bak, responsable du moteur 
+Javascript de Google Chrome. Pour une entreprise qui se lance 
+aujourd'hui, utiliser ce langage est une évidence: il suffit de créer 
+une application une seule fois, et elle fonctionnera partout !"» 
+</p>
+<p>• Javascript est un langage «simple mais puissant» (notamment 
+avec typage dynamique) mais sa syntaxe ressemble beaucoup à 
+celle de la famille C/C++/java (partage d’éléments de syntaxe, 
+bonne base pour la suite).</p>
+<p/>
+<div class="annotation"><a href="http://www.lemonde.fr/sujet/124a/lars-bak.html">http://www.lemonde.fr/sujet/124a/lars-bak.html</a></div>
+<div class="annotation"><a href="http://www.lemonde.fr/google/">http://www.lemonde.fr/google/</a></div>
+</div>
+<div class="page"><p/>
+<p>AlgoScript pour palier aux 
+manques de javascript
+</p>
+<p>• AlgoScript = une grosse bibliothèque de fonctions pour gérer 
+les entrées/sorties dans un environnement de programmation 
+intégré 
+</p>
+<p>• texte: Ecrire(ch), Saisie(), getEntreetexte(),... 
+</p>
+<p>• graphique: Point(x,y,couleur), Rectangle(...),... 
+</p>
+<p>• sonore: ChargerSon(url), CreerSon(...),... 
+</p>
+<p>• fichiers: writeFile(..), includeFile(...),... 
+</p>
+<p>• Mais la bibliothèque est écrite en javascript « pur »… Le 
+programme final est donc du javascript « pur »</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Un environnement de 
+programmation intégré
+</p>
+<p>http://lc.cx/ALGO</p>
+<p/>
+<div class="annotation"><a href="http://lc.cx/ALGO">http://lc.cx/ALGO</a></div>
+</div>
+<div class="page"><p/>
+<p>Démonstrations
+• Exemples de code «en direct» (afficher en même temps la sortie texte) 
+</p>
+<p>• Avec sortie graphique (penser à initialiser l’écran si besoin): 
+</p>
+<p>• L-Systems : exemple1.js et exemple2.js 
+</p>
+<p>• Ajouter un piano, une guitare, l’effet plasma 
+</p>
+<p>• Jouer avec les différentes fenêtres 
+</p>
+<p>• Et pourquoi pas, jouer avec la webcam, openstreetmap et autre…
+</p>
+<p>Ecrire('Bonjour le monde');
+</p>
+<p>var message=Saisie(); 
+Ecrire(message);
+</p>
+<p>var x=Saisie(); 
+Ecrire(5*x+12);
+</p>
+<p>Rectangle(10,10,100,200,'red'); 
+RectanglePlein(150,50,200,200,'blue'); 
+Ligne(0,0,500,300,'green');</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Démonstrations
+• Exemples de code «en direct» (afficher en même temps la sortie texte) 
+</p>
+<p>• Avec sortie graphique (penser à initialiser l’écran si besoin): 
+</p>
+<p>• L-Systems : exemple1.js et exemple2.js 
+</p>
+<p>• Ajouter un piano, une guitare, l’effet plasma 
+</p>
+<p>• Jouer avec les différentes fenêtres 
+</p>
+<p>• Et pourquoi pas, jouer avec la webcam, openstreetmap et autre…
+</p>
+<p>Ecrire('Bonjour le monde');
+</p>
+<p>var message=Saisie(); 
+Ecrire(message);
+</p>
+<p>var x=Saisie(); 
+Ecrire(5*x+12);
+</p>
+<p>Rectangle(10,10,100,200,'red'); 
+RectanglePlein(150,50,200,200,'blue'); 
+Ligne(0,0,500,300,'green');
+</p>
+<p>https://github.com/jeremiebourdon/AlgoScript</p>
+<p/>
+<div class="annotation"><a href="https://github.com/jeremiebourdon/AlgoScript">https://github.com/jeremiebourdon/AlgoScript</a></div>
+</div>
+<div class="page"><p/>
+<p>Videos et quiz
+</p>
+<p>19</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Résumé
+• Algorithmique et programmation: deux langages à 
+</p>
+<p>maîtriser 
+</p>
+<p>• Evaluations des cours, TD et TP (2 CC pour les 
+cours et TD, 2 CC pour les TP et 1 projet). 
+</p>
+<p>• Vidéos des cours mise en ligne avec possibilité 
+d’annoter pour tout le monde (point à éclaircir, 
+remarque, lien supplémentaire, quiz ponctuel,…). 
+</p>
+<p>• Ressources pédagogiques sur Madoc.</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Résumé
+• Algorithmique et programmation: deux langages à 
+</p>
+<p>maîtriser 
+</p>
+<p>• Evaluations des cours, TD et TP (2 CC pour les 
+cours et TD, 2 CC pour les TP et 1 projet). 
+</p>
+<p>• Vidéos des cours mise en ligne avec possibilité 
+d’annoter pour tout le monde (point à éclaircir, 
+remarque, lien supplémentaire, quiz ponctuel,…). 
+</p>
+<p>• Ressources pédagogiques sur Madoc.
+</p>
+<p>To do list…..
+</p>
+<p>Avant chaque séance de TD, relire le cours 
+Avant chaque TP, relire le TD 
+</p>
+<p>Traiter le maximum d’exercice facultatif 
+</p>
+<p>En révision avant les CC, regarder les vidéos et 
+les annoter dans le but de se construire un 
+</p>
+<p>résumé du cours 
+</p>
+<p>Pour nous aider à vous connaître et améliorer le 
+cours, remplissez l’enquête sur votre profil 
+</p>
+<p>informatique en ligne sur Madoc</p>
+<p/>
+</div>
+</body></html>

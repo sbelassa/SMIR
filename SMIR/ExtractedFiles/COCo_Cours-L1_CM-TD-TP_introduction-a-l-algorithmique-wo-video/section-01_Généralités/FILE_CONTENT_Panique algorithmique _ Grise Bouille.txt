@@ -1,0 +1,356 @@
+
+
+		
+
+		
+
+			
+
+				
+
+					
+
+						
+							
+															
+
+							
+								Grise Bouille
+
+								Grise Bouille est un blog-BD humoristique et hétéroclite où se côtoient fictions absurdes, vulgarisation scientifique et satire politique. Il est publié sous licence CC By Sa et hébergé par Framasoft.
+
+								
+
+								Voir aussi :
+
+								
+
+								
+
+								
+
+							
+
+							
+								Publié
+ octobre 5, 2016							
+
+							
+
+ 
+
+
+						
+
+
+						
+							
+								
+																										
+
+								
+									By Gee dans Tu sais quoi ?								
+
+								
+									Panique algorithmique
+								
+
+							
+							
+							
+								Eh voilà, ça devait bien arriver, j’ai encore pondu une BD à rallonge.
+
+Bon, le sujet est hyper-vaste et pas vraiment simple, mais j’ai essayé de faire au mieux. C’est pas parfait, mais à un moment il a fallu que je bloque le texte, sinon ça serait vraiment parti trop loin (de digression en digression). J’ai essayé de synthétiser à la fois le côté technique et le côté politique sans raconter trop de conneries. Je m’excuse d’avance si je suis passé un peu vite sur certaines notions. Mais si ça peut permettre à certains d’y voir un peu plus clair, c’est toujours ça de gagné.
+
+Plongeons donc dans le monde merveilleux des algorithmes…
+
+
+
+ 
+
+
+		Télécharger “Panique algorithmique”		tsq_014_panique_algorithmique.zip – Téléchargé 270 fois – 1 MB
+	
+
+
+
+
+
+	
+
+
+	2 clics pour protéger vos données : il faut cliquer une première fois pour rendre le bouton actif et une seconde fois pour envoyer votre recommandation sur Facebook. Sans cette activation aucune donnée n'est transmise à des tiers.nicht mit Facebook verbunden 
+
+
+	2 clics pour protéger vos données : il faut cliquer une première fois pour rendre le bouton actif et une seconde fois pour envoyer votre recommandation sur Twitter. Sans cette activation aucune donnée n'est transmise à des tiers.nicht mit Twitter verbunden 
+
+
+	2 clics pour protéger vos données : il faut cliquer une première fois pour rendre le bouton actif et une seconde fois pour envoyer votre recommandation sur Google +. Sans cette activation aucune donnée n'est transmise à des tiers.nicht mit Google+verbunden 
+
+
+	2 clics pour protéger vos données : il faut cliquer une première fois pour rendre le bouton actif et une seconde fois pour envoyer votre recommandation sur Flattr. Sans cette activation aucune donnée n'est transmise à des tiers.nicht mit Flattr verbunden 
+
+
+
+
+
+
+
+
+
+
+Avez-vous lu ces autres articles ?
+
+
+						    
+							  
+							  
+									  
+										
+										
+
+									  
+
+									  
+								   I Love Free Software
+							  (Français ci-dessous)
+Last year, I drew a comic stip about the event I Love Free Software organized by the FSFE. Today, I tweeted it again and was ask...
+							  
+							  
+
+						  
+
+						    
+							  
+							  
+									  
+										
+										
+
+									  
+
+									  
+								   Je hais le téléphone
+							  Aujourd'hui c'est un cri du cœur contre cet objet que, même s'il a été une énorme avancée dans les communications humaines, je répugne à utiliser (en ...
+							  
+							  
+
+						  
+
+						    
+							  
+							  
+									  
+										
+										
+
+									  
+
+									  
+								   Aux confins de l’espace
+							  Parce qu'il n'y a pas de raison que cette section ne serve qu'à vulgariser de la science, intéressons-nous aujourd'hui à la langue... et même plus par...
+							  
+							  
+
+						  
+
+						    
+							  
+							  
+									  
+										
+										
+
+									  
+
+									  
+								   Libremon
+							  Les mascottes des logiciels libres forment un bestiaire assez impressionnant, et utilisé à des fins artistiques dans certains projets libres comme Sup...
+							  
+							  
+
+						  
+
+ 
+
+   
+
+
+
+
+Cet article est gratuit et librement partageable et modifiable. Si vous souhaitez soutenir cette démarche, vous pouvez me faire un don ou tout simplement le partager autour de vous. Dans tous les cas, merci d'avoir pris le temps de le consulter en entier, ce qui est déjà une forme de rémunération pour moi !
+
+
+
+
+
+Les commentaires sont fermés, mais vous pouvez néanmoins me laisser un message (privé) si vous le souhaitez :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nom (obligatoire)
+
+     
+
+Email
+
+     
+
+Message (obligatoire)
+
+     
+
+Antispam
+
+    De quelle couleur est la bouille ? 
+
+
+
+
+
+
+															
+
+						
+						
+							
+								
+																	
+
+
+								
+									Grise Bouille
+
+									Grise Bouille est un blog-BD humoristique et hétéroclite où se côtoient fictions absurdes, vulgarisation scientifique et satire politique. Il est publié sous licence CC By Sa et hébergé par Framasoft.
+
+								
+
+
+								
+									Publié
+ octobre 5, 2016								
+
+								
+
+							
+
+ 
+						
+
+					
+
+
+				
+
+
+			
+
+
+
+			
+
+				
+
+						Le blog
+			Le blog Grise Bouille et l'intégralité de son contenu (images et textes) sont diffusés sous licence Creative Commons By-Sa .
+
+
+
+		
+			Derniers articles parus
+			
+				Le cadre
+							6 janvier 2017
+						
+	
+				Bonne année 2017
+							1 janvier 2017
+						
+	
+				Joyeuses Saturnales !
+							21 décembre 2016
+						
+	
+				Sara & Tim
+							18 novembre 2016
+						
+	
+				Défense française : portes ouvertes pour la NSA
+							15 novembre 2016
+						
+
+
+		
+	Méta
+				Connexion
+	Flux RSS des articles
+	RSS des commentaires
+	Site de WordPress-FR
+
+
+			
+
+
+
+				
+
+
+			
+
+
+			
+
+				
+
+					
+						Grise Bouille est un blog-BD écrit et dessiné par Simon « Gee » Giraudot et diffusé sous licence Creative Commons By-Sa. Il est hébergé gracieusement par Framasoft.
+					
+
+
+					
+						Fièrement propulsé par WordPress — Thème WPMedium par CaerCam
+					
+
+
+				
+
+
+			
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+ 
+

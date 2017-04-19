@@ -1,0 +1,148 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ter.lina</groupId>
+  <artifactId>SMIR</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>SMIR</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <elastic.version>5.3.0</elastic.version>
+    <jsf.version>2.2.2</jsf.version>
+    <primeFaces.version>3.5</primeFaces.version>
+    <primeFacesTheme.version>1.0.10</primeFacesTheme.version>
+    <jbossJ2ee.version>4.2.2.GA</jbossJ2ee.version>
+    <commonsFileUpload.version>1.3</commonsFileUpload.version>
+    <javaxJson.version>1.0-b04</javaxJson.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- TIKA -->
+        
+     <dependency>
+    <groupId>org.apache.tika</groupId>
+    <artifactId>tika-core</artifactId>
+    <version>1.14</version>
+  </dependency>
+   <dependency>
+    <groupId>org.apache.tika</groupId>
+    <artifactId>tika-parsers</artifactId>
+    <version>1.14</version>
+  </dependency>
+  
+  
+  <!-- ELASTICSEARCH -->
+   <dependency>
+          <groupId>org.glassfish</groupId>
+          <artifactId>javax.faces</artifactId>
+          <version>${jsf.version}</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.primefaces</groupId>
+          <artifactId>primefaces</artifactId>
+          <version>${primeFaces.version}</version>
+      </dependency>
+        
+      <dependency>
+          <groupId>org.primefaces.themes</groupId>
+          <artifactId>bootstrap</artifactId>
+          <version>${primeFacesTheme.version}</version>
+      </dependency>
+
+      <dependency>
+          <groupId>commons-fileupload</groupId>
+	  <artifactId>commons-fileupload</artifactId>
+	  <version>${commonsFileUpload.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch</groupId>
+        <artifactId>elasticsearch</artifactId>
+        <version>${elastic.version}</version>
+    </dependency>
+    
+         
+      <dependency>
+    <groupId>org.elasticsearch.client</groupId>
+    <artifactId>transport</artifactId>
+    <version>${elastic.version}</version>
+	</dependency>
+    
+    
+    <dependency>
+        <groupId>jboss</groupId>
+        <artifactId>jboss-j2ee</artifactId>
+        <version>${jbossJ2ee.version}</version>
+    </dependency>
+    
+    <!-- Log4j -->
+
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.8.2</version>
+  </dependency>
+  
+  
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.8.2</version>
+  </dependency>
+    
+    <!-- GSON -->
+   <dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.0</version>
+    </dependency>
+    
+  </dependencies>
+  
+  
+  <!-- Prim-repo -->
+  <repositories>
+      <repository>
+          <id>prime-repo</id>
+          <layout>default</layout>
+          <url>http://repository.primefaces.org/</url>
+      </repository>
+  </repositories>
+  
+  <!-- Build related to ElasticSearch -->
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.mortbay.jetty</groupId>
+              <artifactId>jetty-maven-plugin</artifactId>
+              <version>7.4.4.v20110707</version>
+              <configuration>
+                  <stopPort>9966</stopPort>
+                  <stopKey>jetty-stop</stopKey>
+                  <scanIntervalSeconds>10</scanIntervalSeconds>
+              </configuration>
+              <executions>
+                  <execution>
+                      <id>stop-jetty</id>
+                      <phase>post-integration-test</phase>
+                      <goals>
+                          <goal>stop</goal>
+                      </goals>
+                  </execution>
+              </executions>
+          </plugin>
+      </plugins>
+  </build>
+</project>

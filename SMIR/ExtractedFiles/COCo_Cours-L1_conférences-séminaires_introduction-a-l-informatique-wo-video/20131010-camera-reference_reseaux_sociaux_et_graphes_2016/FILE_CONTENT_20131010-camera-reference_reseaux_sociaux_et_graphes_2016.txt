@@ -1,0 +1,1075 @@
+
+Réseaux sociaux :            
+
+des enjeux pour les 
+
+informaticiens
+
+Octobre 2016
+
+Colin de la Higuera
+
+1
+
+
+
+Transparent prise de 
+
+notes
+
+Ce dessin indique que le transparent
+résume un point particulier et peut être
+recopié utilement
+
+2
+
+
+
+Point de départ : un grand 
+
+bouleversement
+
+ Facebook est né en 2004. 1,6 Milliards
+d’utilisateurs actifs quotidiens
+
+ Twitter est né en 2006. 500 millions de
+tweets par jour
+
+3
+
+
+
+Les réseaux sociaux
+
+4
+http://stockdaledesigns.deviantart.com
+
+
+
+Les réseaux sociaux (les 
+
+exemples connus)
+
+ Facebook (200 millions d’utilisateurs (mars 09), 57 en décembre
+2007), Juillet 2013 250 Milliards de dollars
+
+ 1,6 Milliard d’utilisateurs par mois (mars 2016)(wikipedia)
+ 620 millions d'utilisateurs, dont la moitié se connecte au moins une
+
+fois par jour, et passe 55 minutes (en moyenne) par jour sur le
+site. Il y a 1 milliard de contenus mis en ligne par jour (vidéos,
+statuts, photos, articles.. (Wikipedia, en 2011)
+
+ Myspace (230 millions en 2008) En juin 2011, Rupert Murdoch cède
+Myspace à Specific Media pour 35 millions de dollars (soit 16 fois
+moins que le prix d'acquisition de 2005)
+
+ Viadeo (45 millions d’inscrits), repli de Chine, perte de 23 millions
+d'euros en 2015
+
+ LinkedIn (Mars 2016, LinkedIn a plus de 433 million de comptes,
+don’t plus de 106 million actifs
+
+ Twitter (500 millions en février 2012, 310 millions actifs par
+moisselon wikipedia)
+
+5
+
+http://fr.wikipedia.org/wiki/Rupert_Murdoch
+http://fr.wikipedia.org/wiki/Specific_Media
+http://www.viadeo.com/
+
+
+D’autres exemples
+
+ L’ONU
+
+ Toute société dans laquelle on étudie les
+relations entre les individus ou les
+éléments
+
+ Les membre de blablacars
+
+ Les utilisateurs d’Amazon
+
+ Les participants à un MOOC
+
+6
+
+
+
+Une idée de base
+
+ L'effet du petit monde est l'hypothèse
+que la longueur de la chaîne des
+connaissances sociales requise pour lier
+une personne, arbitrairement choisie à
+n'importe qu'elle autre sur Terre est
+généralement courte.
+
+7
+
+Réf : wikipedia
+
+http://fr.wikipedia.org/wiki/%C3%89tude_du_petit_monde
+http://fr.wikipedia.org/wiki/Hypoth%C3%A8se
+http://fr.wikipedia.org/wiki/Terre
+
+
+ Le concept a engendré l'expression
+célèbre des "six degrés de séparation"
+après l'expérience du petit monde de
+1967, réalisée par le psychologue
+Stanley Milgram. Il a constaté que deux
+citoyens aléatoirement choisis aux
+États-Unis sont reliés par, tout au plus,
+six connaissances, et en tout temps.
+
+8
+
+http://fr.wikipedia.org/wiki/Concept
+http://fr.wikipedia.org/wiki/Six_degr%C3%A9s_de_s%C3%A9paration
+http://fr.wikipedia.org/wiki/1967
+http://fr.wikipedia.org/wiki/Psychologue
+http://fr.wikipedia.org/wiki/Stanley_Milgram
+http://fr.wikipedia.org/wiki/%C3%89tats-Unis
+
+
+Sur Internet ?
+
+ Environ quatre degrés de séparation
+sont suffisants pour connecter
+n'importe quelle personne à une autre
+par un réseau social (par « le » réseau
+social)
+
+9
+
+
+
+Un autre réseau (a?)social
+
+ Hatebook is an anti-social utility that
+disconnects you from the things YOU
+HATE.
+
+ Everybody loves to HATE—
+
+ The enemies of your enemies are your
+friends – find them here»
+
+10
+
+http://www.hatebook.org/register.php
+
+
+Carte des haines…
+
+11
+
+
+
+Ma résidence .com
+
+12
+
+
+
+Réseaux sociaux et 
+
+internet
+
+ Les réseaux sociaux sont objets d’étude
+des sociologues depuis longtemps
+
+ L’effet du petit monde : on trouve toujours
+une chaîne courte entre deux individus
+
+ Réseaux sociaux et internet : enjeux
+sociétaux et économiques colossaux
+
+13
+
+
+
+Les 12 transparents suivants :
+
+twitter : @AntonioCasilli
+www : casilli.fr
+
+14
+
+
+
+1) Internet n’est pas le 
+triomphe de la solitude
+
+
+
+1992 Robin Dunbar
+
+148
+
+
+
+290
+
+2000 Peter Killworth
+
+
+
+610
+
+2010 Matthew Salganik
+
+
+
+
+
+2) Internet est un monde 
+de plus en plus « petit »
+
+
+
+1969 : six degrés de séparation
+
+
+
+2012 : quatre degrés de séparation
+
+
+
+
+
+3) Internet est un monde 
+de plus en plus « glocal »
+
+
+
+
+
+
+
+MODÉLISATION ET 
+
+SIMULATION
+
+27
+
+
+
+Un réseau social (symbolique)
+
+28
+
+C
+e
+
+rta
+in
+
+s
+ d
+
+ro
+its
+
+ ré
+s
+e
+
+rv
+é
+
+s
+p
+
+a
+r h
+
+a
+n
+
+s
+p
+
+o
+ld
+
+o
+ja
+
+@
+flic
+
+k
+r 
+
+http://creativecommons.org/licenses/by/2.0/
+http://creativecommons.org/licenses/by/2.0/
+http://www.flickr.com/photos/hanspoldoja/
+http://creativecommons.org/licenses/by/2.0/
+http://creativecommons.org/licenses/by/2.0/
+
+
+29Licence Certains droits réservés par neil cummings
+
+http://creativecommons.org/licenses/by-sa/2.0/
+http://www.flickr.com/photos/chanceprojects/
+
+
+La simulation comme outil
+
+Si on sait générer automatiquement des
+graphes qui ont les propriétés voulues, on
+peut inférer le fonctionnement réel du
+système !
+
+30
+
+
+
+Le modèle 
+
+mathématique 
+
+ Les graphes sont utilisés pour représenter
+un réseau social
+
+ La simulation permet de vérifier la validité
+d’un modèle
+
+31
+
+
+
+Deux exemples de questions 
+
+réseaux-graphes
+
+ X a 3 amis qui ne se
+connaissent pas
+entre eux
+
+ Y a 3 amis qui se
+connaissent entre
+eux
+
+ Qui va joindre le
+réseau ?
+
+32
+
+
+
+Théories contradictoires
+
+ Argument de la théorie de l’information :
+les amis non connectés donnent un support
+indépendant
+
+ Argumentaire du capital social : il y a un
+avantage (sécurité, confiance) à avoir des
+amis qui se connaissent entre eux
+
+33
+
+
+
+Le capital social gagne !
+
+34
+
+
+
+Des applications de la 
+
+théorie des graphes dans 
+
+l’analyse des réseaux 
+
+sociaux
+
+ Les graphes permettent d’étudier, par des
+propriétés de théorie des graphes, les
+réseaux sociaux
+
+ Différents concepts : connexité, chemins,
+cliques, coupes du graphe, flux…
+
+35
+
+
+
+Pourquoi utiliser des 
+
+graphes ?
+
+ Peuvent être adaptés à de nombreuses
+situations
+
+ En modélisation, des objets essentiels
+
+36
+
+
+
+Graphes et chimie
+
+37
+
+
+
+Graphes de Delaunay
+
+Tous droits réservés par Scays
+38
+
+http://www.flickr.com/photos/scays/
+
+
+39
+
+w
+w
+
+w
+.n
+
+e
+u
+ro
+
+p
+ro
+
+d
+u
+c
+ti
+o
+
+n
+s
+.b
+
+e
+/ 
+
+
+
+ The Treponema pallidum protein interactome.[30]
+
+ http://en.wikipedia.org/wiki/Interactome
+
+40
+
+http://en.wikipedia.org/wiki/Treponema_pallidum
+http://en.wikipedia.org/wiki/Interactome#cite_note-Titz2008-30
+
+
+Les graphes
+
+ Les graphes permettent de modéliser :
+ des images
+
+ des molécules
+
+ des systèmes complexes
+
+ des réseaux sociaux
+
+ des sites web
+
+ …
+41
+
+
+
+LES GRAPHES
+
+42
+
+
+
+Les graphes
+
+43
+
+gc d
+
+a b
+
+e
+h
+
+f
+
+
+
+Un graphe non orienté, (V,E), avec 
+
+V un ensemble de sommets 
+
+(vertex), et E un ensemble d’arêtes 
+
+(edge).
+
+44
+
+a
+
+b
+
+Le sommet étiqueté a
+
+l’arête {a,b}
+
+une boucle
+
+a et b sont adjacents
+f e
+
+d
+
+c
+
+
+
+Un graphe orienté est un G=(V,A) 
+
+où V est un ensemble de 
+
+sommets et A est un ensemble 
+
+d’arcs.
+
+45
+
+b
+
+l’arc (a,b)
+
+une boucle
+
+a
+
+f e
+
+d
+
+c
+Le sommet étiqueté a
+
+
+
+Un problème particulier
+
+ L’isomorphisme de graphes
+
+ Deux graphes sont isomorphes si ce sont
+les mêmes graphes au dessin près
+
+ Exemple
+
+46
+
+c
+
+a
+
+d
+
+b b
+
+a
+
+c
+
+d
+
+
+
+Isomorphes ?
+
+47
+
+?
+
+?
+
+?
+
+b
+
+ed
+
+f
+c
+
+a
+
+G1 G2
+
+?
+
+?
+
+?
+
+
+
+L’isomorphisme de 
+
+graphes
+
+ Deux graphes sont isomorphes si on peut
+réétiqueter les sommets de l’un pour
+obtenir l’autre
+
+ Vérifier si deux graphes sont isomorphes
+est un problème difficile
+
+48
+
+
+
+Exemple de graphe-réseau 
+
+social
+
+ On veut représenter les interactions d’un
+réseau social de 5 membres qui se font
+confiance ou pas.
+
+ On sait que
+ Alfred fait confiance à Bea
+
+ Bea fait confiance à Alfred, Charles et Didier
+
+ Charles fait confiance à Alfred
+
+ Didier fait confiance à Erwan et lui-même
+
+ Erwan fait confiance à Bea
+49
+
+
+
+Notations
+
+ Le groupe est noté E
+
+ Les membres sont notés a,b,c,d,e
+
+ Donc E={a,b,c,d,e}
+
+50
+
+
+
+Fait_confiance
+
+est une relation.
+
+ Elle est composée de paires*
+
+ Fait_confiance= {(a,b),
+(b,a),(b,c),(b,d),(c,a),(d,d),(d,e),(e,b)}
+
+ On notera (b,c)Fait_confiance
+
+51* Ou couples pour les mathématiciens
+
+
+
+ On notera aussi
+
+(a,b)Fait_confiance pour indiquer qu’Alfred
+a confiance en Bea
+
+(x,b)Fait_confiance pour indiquer que
+quelqu’un (inconnu) a confiance en Bea
+
+{xE : (x,b)Fait_confiance} pour l’ensemble
+des gens qui ont confiance en Bea
+
+{xE : (a,x)Fait_confiance} pour l’ensemble
+des gens en qui Alfred a confiance
+
+52
+
+
+
+On définira avantageusement 
+
+fait_confiance par une table
+
+a b c d e
+
+a F V F F F
+
+b V F V V F
+
+c V F F F F
+
+d F F F V V
+
+e F V F F F
+
+53
+
+Fait_confiance= 
+
+{(a,b),(b,a),(b,c),
+
+(b,d),(c,a),(d,d), 
+
+(d,e),(e,b)}
+
+
+
+La table correspond à un autre 
+
+objet mathématique : la matrice
+
+a b c d e
+
+a V
+
+b V V V
+
+c V
+
+d V V
+
+e V
+
+0 1 0 0 0
+
+1 0 1 1 0
+
+1 0 0 0 0
+
+0 0 0 1 1
+
+0 1 0 0 0
+
+54
+
+
+
+Lien entre table et graphe
+
+a b c d e
+
+a V
+
+b V V V
+
+c V
+
+d V V
+
+e V
+55
+
+c
+
+a
+
+d
+
+e
+
+b
+
+
+
+Une relation
+
+est un ensemble de paires
+
+ Elle peut* être représentée par une table,
+par une matrice ou par un graphe
+
+ Les trois représentations sont
+équivalentes, mais dans chaque cas un
+vocabulaire adapté sera utilisé
+
+56
+
+* Si la relation est finie
+
+
+
+6 Un langage pour parler des 
+
+relations
+
+ Les gens en qui on a confiance
+
+ Les personnes qui ont le plus confiance
+
+ Les personnes qui ont des relations de
+confiance réciproque
+
+57
+
+
+
+Que veut-on ?
+
+ Un langage non ambigu
+
+ Un langage (assez) simple
+
+ Un langage (assez) expressif
+
+ Un langage pouvant être interprété par une
+machine
+
+ Soit la logique des prédicats
+
+58
+
+
+
+La logique du premier ordre
+
+ On pourra utiliser les opérateurs
+
+  (et),  (ou),  (non)
+
+ Les quantificateurs
+ Quelque soit 
+
+ Il existe 
+
+ L’appartenance 
+
+ L’implication 
+
+59
+
+
+
+(A2) On pourra définir des 
+
+ensembles par des formules 
+
+du premier ordre
+
+ {xA : yA (x,y)R}
+
+ {xA : yA (x,y)R}
+
+ {xA : (x,y)R  (y,x)R}
+
+60
+
+
+
+Notation usuelle
+
+ {xA : P(x)}
+
+ Si le premier quantificateur de la propriété
+est  la propriété est universelle. Si
+c’est  la propriété est dite existentielle.
+
+61
+
+L’ensemble dans lequel on 
+choisit x
+
+La propriété sur x qui doit 
+être vérifiée
+
+
+
+Exemple (suite)
+
+{xE : (x,b)Fait_confiance}
+
+l’ensemble des gens qui ont confiance en Bea
+
+{xE : (b,x)Fait_confiance}
+
+l’ensemble des gens en qui Bea a confiance
+
+{xE : (x,b)Fait_confiance 
+(b,x)Fait_confiance} 
+
+l’ensemble des gens en qui Bea a confiance et qui
+ont confiance en Bea 62
+
+
+
+Solution graphique
+
+a b c d e
+
+a V
+
+b V V V
+
+c V
+
+d V V
+
+e V
+63
+
+c
+
+a
+
+d
+
+e
+
+b
+
+
+
+Exemple (suite)
+
+{xE : yE (x,y)Fait_confiance 
+(y,x)Fait_confiance }
+
+L’ensemble des personnes qui ont confiance
+en quelqu’un qui a confiance en eux
+
+64
+
+
+
+Solution {a, b, d}
+
+a b c d e
+
+a V
+
+b V V V
+
+c V
+
+d V V
+
+e V
+65
+
+c
+
+a
+
+d
+
+e
+
+b
+
+
+
+Exemple (suite)
+
+{xE : |{yE : (y,x)Fait_confiance}|2 }
+
+L’ensemble des personnes qui ont au moins
+deux personnes qui leur font confiance
+
+Remarque : |A| est le cardinal de l’ensemble
+A
+
+66
+
+
+
+Solution={a,b,d}
+
+a b c d e
+
+a V
+
+b V V V
+
+c V
+
+d V V
+
+e V
+67
+
+c
+
+a
+
+d
+
+e
+
+b
+
+
+
+(A1) Exemple (suite)
+
+{xE : (b,x)Fait_confiance 
+(c,x)Fait_confiance }
+
+Les personnes en qui, si Bea a confiance, 
+alors Charles aussi
+
+68
+
+
+
+Solution={a,b,d,e}
+
+69
+
+c
+
+a
+
+d
+
+e
+
+b {xE : 
+(b,x)Fait_confiance  
+(c,x)Fait_confiance }
+
+
+
+La logique du 
+
+premier ordre
+
+ Permet de définir des propriétés
+
+ Repose sur le calcul booléen
+
+ Les quantificateurs permettent de dire si
+la propriété s’applique à tous ou à au moins
+un élément
+
+70
+
+
+
+Autres exemples
+
+ Les gens qui ont confiance en exactement
+deux personnes
+
+ Un groupe le plus grand possible tel que
+tout le monde a confiance en tout le monde
+
+ Les personnes en qui les gens ont le plus
+confiance
+
+71
+
+

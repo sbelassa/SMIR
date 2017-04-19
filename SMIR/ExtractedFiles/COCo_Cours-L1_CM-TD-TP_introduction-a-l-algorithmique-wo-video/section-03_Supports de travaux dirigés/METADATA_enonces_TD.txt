@@ -1,0 +1,33 @@
+Metadata of the PDF:
+date : 2014-09-08T13:41:57Z
+pdf:PDFVersion : 1.3
+pdf:docinfo:title : enonces_TD.pages
+xmp:CreatorTool : Pages
+access_permission:modify_annotations : true
+access_permission:can_print_degraded : true
+dcterms:created : 2014-09-08T13:41:57Z
+Last-Modified : 2014-09-08T13:41:57Z
+dcterms:modified : 2014-09-08T13:41:57Z
+dc:format : application/pdf; version=1.3
+title : enonces_TD.pages
+Last-Save-Date : 2014-09-08T13:41:57Z
+pdf:docinfo:creator_tool : Pages
+access_permission:fill_in_form : true
+pdf:docinfo:modified : 2014-09-08T13:41:57Z
+meta:save-date : 2014-09-08T13:41:57Z
+pdf:encrypted : false
+dc:title : enonces_TD.pages
+modified : 2014-09-08T13:41:57Z
+Content-Type : application/pdf
+meta:creation-date : 2014-09-08T13:41:57Z
+created : Mon Sep 08 15:41:57 CEST 2014
+access_permission:extract_for_accessibility : true
+access_permission:assemble_document : true
+xmpTPg:NPages : 26
+Creation-Date : 2014-09-08T13:41:57Z
+access_permission:extract_content : true
+access_permission:can_print : true
+producer : Mac OS X 10.9.4 Quartz PDFContext
+access_permission:can_modify : true
+pdf:docinfo:producer : Mac OS X 10.9.4 Quartz PDFContext
+pdf:docinfo:created : 2014-09-08T13:41:57Z

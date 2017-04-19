@@ -1,0 +1,18 @@
+Metadata of the PDF:
+og:image : https://grisebouille.net/wp-content/uploads/2014/12/tu_sais_quoi.png
+X-Parsed-By : org.apache.tika.parser.DefaultParser
+og:type : article
+og:site_name : Grise Bouille
+og:title : Panique algorithmique
+generator : WordPress 4.7
+title : Panique algorithmique | Grise Bouille
+og:description : Eh voilà, ça devait bien arriver, j'ai encore pondu une BD à rallonge.  Bon, le sujet est hyper-vaste et pas vraiment simple, mais j'ai essayé de faire au mieux. C'est pas parfait, mais à un moment il a fallu que je bloque le texte, sinon ça serait vraiment parti trop loin (de digression en digression). J'ai essayé de synthétiser à la fois le côté technique et le côté politique sans raconter ...
+og:locale:alternate : fr_FR
+viewport : width=device-width, initial-scale = 1.0
+dc:title : Panique algorithmique | Grise Bouille
+Content-Encoding : UTF-8
+Content-Type-Hint : text/html; charset=UTF-8
+og:locale : fr_FR
+og:url : https://grisebouille.net/panique-algorithmique/
+Content-Type : text/html; charset=UTF-8
+msapplication-TileImage : https://grisebouille.net/wp-content/uploads/2014/12/favicon1-549f22c7v1_site_icon.png

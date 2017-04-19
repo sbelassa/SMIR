@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="date" content="2013-12-10T11:09:41Z"/>
+<meta name="pdf:PDFVersion" content="1.4"/>
+<meta name="pdf:docinfo:title" content="CM_Algo_distribué_2013_rev02"/>
+<meta name="xmp:CreatorTool" content="PDFCreator Version 1.7.0"/>
+<meta name="Keywords" content=""/>
+<meta name="access_permission:modify_annotations" content="true"/>
+<meta name="access_permission:can_print_degraded" content="true"/>
+<meta name="subject" content=""/>
+<meta name="dc:creator" content="camila"/>
+<meta name="dcterms:created" content="2013-12-10T11:09:41Z"/>
+<meta name="Last-Modified" content="2013-12-10T11:09:41Z"/>
+<meta name="dcterms:modified" content="2013-12-10T11:09:41Z"/>
+<meta name="dc:format" content="application/pdf; version=1.4"/>
+<meta name="xmpMM:DocumentID" content="uuid:216e2ff2-63e7-11e3-0000-70c03226da1f"/>
+<meta name="Last-Save-Date" content="2013-12-10T11:09:41Z"/>
+<meta name="pdf:docinfo:creator_tool" content="PDFCreator Version 1.7.0"/>
+<meta name="access_permission:fill_in_form" content="true"/>
+<meta name="pdf:docinfo:keywords" content=""/>
+<meta name="pdf:docinfo:modified" content="2013-12-10T11:09:41Z"/>
+<meta name="meta:save-date" content="2013-12-10T11:09:41Z"/>
+<meta name="pdf:encrypted" content="false"/>
+<meta name="dc:title" content="CM_Algo_distribué_2013_rev02"/>
+<meta name="modified" content="2013-12-10T11:09:41Z"/>
+<meta name="cp:subject" content=""/>
+<meta name="Content-Length" content="5781698"/>
+<meta name="pdf:docinfo:subject" content=""/>
+<meta name="Content-Type" content="application/pdf"/>
+<meta name="pdf:docinfo:creator" content="camila"/>
+<meta name="X-Parsed-By" content="org.apache.tika.parser.DefaultParser"/>
+<meta name="X-Parsed-By" content="org.apache.tika.parser.pdf.PDFParser"/>
+<meta name="creator" content="camila"/>
+<meta name="meta:author" content="camila"/>
+<meta name="dc:subject" content=""/>
+<meta name="meta:creation-date" content="2013-12-10T11:09:41Z"/>
+<meta name="created" content="Tue Dec 10 12:09:41 CET 2013"/>
+<meta name="access_permission:extract_for_accessibility" content="true"/>
+<meta name="access_permission:assemble_document" content="true"/>
+<meta name="xmpTPg:NPages" content="76"/>
+<meta name="Creation-Date" content="2013-12-10T11:09:41Z"/>
+<meta name="resourceName" content="20131128-camera-reference_algorithmes_distribues.pdf"/>
+<meta name="access_permission:extract_content" content="true"/>
+<meta name="access_permission:can_print" content="true"/>
+<meta name="meta:keyword" content=""/>
+<meta name="Author" content="camila"/>
+<meta name="producer" content="GPL Ghostscript 9.07"/>
+<meta name="access_permission:can_modify" content="true"/>
+<meta name="pdf:docinfo:producer" content="GPL Ghostscript 9.07"/>
+<meta name="pdf:docinfo:created" content="2013-12-10T11:09:41Z"/>
+<title>CM_Algo_distribué_2013_rev02</title>
+</head>
+<body><div class="page"><p/>
+<p>ALGORITHMIQUE
+DISTRIBUÉE
+</p>
+<p>Yann BusnelYann Busnel
+UFR Sciences et Techniques (Dpt. Informatique)
+</p>
+<p>LINA (Equipe GDD)</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Kesako ?
+</p>
+<p>• Algorithmique ?
+� OK… On maitrise…
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>• Distribuée ?
+� « Répartir une ou plusieurs choses » (CNRTL 09)
+</p>
+<p>� Algorithmique répartie
+</p>
+<p>2</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Kesako ?
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique3</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Plan
+</p>
+<p>1. Petite histoire de l’informatique
+2. Définitions
+3.
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>3. Distribution : rêve ou réalité ?
+4. Modélisation / Représentation
+5. Problèmes
+</p>
+<p>4</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Transparent de prise de 
+note
+</p>
+<p>• RAPPEL :
+Ce dessin indique que le transparent résume un point 
+</p>
+<p>particulier et doit être recopie
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique5
+</p>
+<p>By Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique6
+</p>
+<p>La Pascaline - 1642
+</p>
+<p>By J. A. V. Turck [Public domain], via Wikimedia Commons
+</p>
+<p>Blaise Pascal [CC-BY-SA-3.0 via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique7
+</p>
+<p>L’Arithnometre – 1820
+La premier calculateur produit en masse 
+</p>
+<p>By Ezrdr (Own work) [Public domain], via Wikimedia Commons
+</p>
+<p>Mechanism Arithmometer 1822, [Public domain], via Wikimedia 
+Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique8
+</p>
+<p>La machine analytique – 1830
+Première machine à calculer : 50 000 exemplaires 
+</p>
+<p>Babbage's Analytical Engine, 1834-1871.
+http://creativecommons.org/licenses/by-sa/2.0/ Babbage Difference Engine (Being utilised), Creative 
+</p>
+<p>Commons Attribution 2.0 Generic</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Téléphone – 1867
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique9
+</p>
+<p>Téléphone – 1867
+Graham Bell parlant dans 
+le tout premier téléphone
+</p>
+<p>By Unknown; film commissioned by AT&amp;T. (Early Office Museum.) 
+[Public domain], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique10
+</p>
+<p>Télégraphe sans fil – 1896 Communication sans fil !!!
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:Muirhead_Morse_inker_%
+28Rankin_Kennedy,_Electrical_Installations,_Vol_V,_190
+3%29.jpg / http://creativecommons.org/licenses/by-sa/3.0/
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:Post_Office_Engineers.jpg / 
+http://creativecommons.org/licenses/by-sa/3.0/</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Le premier transistor 
+– 1947
+</p>
+<p>Transistor – 1926 
+Premier brevet déposé
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique11
+</p>
+<p>By Benedikt.Seidl (Own work) [Public domain], via 
+Wikimedia Commons
+</p>
+<p>Replica-of-first-transistor / CC BY-SA 2.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique12
+</p>
+<p>ENIAC – 1946
+Le premier 
+ordinateur !
+</p>
+<p>See page for author [Public domain], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique13
+</p>
+<p>ENIAC – 1946
+Le premier ordinateur !
+</p>
+<p>By USGov-Military-Army [Public domain], via Wikimedia Commons By Topory at pl.wikipedia [Public domain], from Wikimedia 
+Commons
+</p>
+<p>Work found at http://en.wikipedia.org/wiki/File:Two_women_operating_ENIAC.gif / http://creativecommons.org/licenses/by-sa/3.0/</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique14
+</p>
+<p>IBM 650 – 1953 
+Le premier ordinateur de grande série : 1500 exemplaires
+</p>
+<p>ibm650de1953b / http://creativecommons.org/licenses/by-nc-sa/2.0/</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>DEC PDP-1 – 1961 
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique15
+</p>
+<p>DEC PDP-1 – 1961 
+Le premier « mini »-
+ordinateur…
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:Steve_Russell_and_PDP-1.png / 
+http://creativecommons.org/licenses/by-sa/3.0/</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique16
+</p>
+<p>Micral N – 1972 
+Premiers ordinateur vendu « tout monté »
+</p>
+<p>Work found at http://en.wikipedia.org/wiki/File:Micral_MGR_Lyon-IMG_9895.JPG / 
+http://creativecommons.org/licenses/by-sa/3.0/</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Scelbi – 1973
+Premier 
+micro-ordinateur
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique17
+</p>
+<p>Scelbi 8H, by Stahlkocher, via Creative Commons
+Attribution-Share Alike 3.0 Unported
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:SCEL
+BI_8H_Computer.jpg / 
+http://creativecommons.org/licenses/
+by-sa/3.0/</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique18
+</p>
+<p>IBM 5100 – 1975 
+Le premier ordinateur « portable » : 25 kg !
+</p>
+<p>Work found at http://en.wikipedia.org/wiki/File:IBM_5100_-_MfK_Bern.jpg / 
+http://creativecommons.org/licenses/by-sa/3.0/</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique19
+</p>
+<p>Apple I – 1976
+</p>
+<p>By Ed Uthman (originally posted to Flickr as Apple I Computer) [CC-BY-SA-2.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique20
+</p>
+<p>Apparition du PC – Années 1980
+</p>
+<p>By Rama &amp; Musée Bolo (Own work) [CC-
+BY-SA-2.0-fr], via Wikimedia Commons
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:Ibm_p
+c_5150.jpg / CC BY-SA 3.0
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:IBM_PC_5150.j
+pg / CC BY-SA 3.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique21
+</p>
+<p>Amélioration des performance et miniaturisation 
+– Années 1990
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:Amiga500_syst
+em.jpg / CC BY-SA 3.0
+</p>
+<p>Work found at 
+http://it.wikipedia.org/wiki/File:HP
+_Pavilion_4450.PNG / CC BY-SA 
+3.0
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/Fil
+e:Power_Mac_G3_B%26W.jp
+g / CC BY-SA 3.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Jargon des informaticiens
+• On mesure la puissance des ordinateurs en FLOPS 
+</p>
+<p>� Float Operation Per Second
+</p>
+<p>� Nombre d’opérations arithmétique sur des nombres à virgule 
+</p>
+<p>flottante par seconde
+</p>
+<p>• Echelle
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>• Echelle
+� mégaFLOPS = 106 (un million) d’opérations
+</p>
+<p>� gigaFLOPS = 109 (un milliard) flops
+</p>
+<p>� téraFLOPS = 1012 (un billion) flops
+</p>
+<p>� pétaFLOPS = 1015 (un billiard) flops
+</p>
+<p>� exaFLOPS = 1018 flops
+</p>
+<p>22
+</p>
+<p>By Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Pendant ce temps, chez les superordinateurs…
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique23
+</p>
+<p>RoadRunner, 2008
+1er à dépasser le pétaFLOPS
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:IBM_Blue_Gene_P_supercomputer
+.jpg / CC BY-SA 3.0
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:Roadrunner_supercomputer_
+HiRes.jpg / CC BY-SA 3.0
+</p>
+<p>IBM Blue Gene P</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Puissance de calcul
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique24</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>L’ordinateur le plus puissant en juin 2012 : Sequoia IBM
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique25
+</p>
+<p>16,32 pétaFLOPS16,32 pétaFLOPS
+Sequoia / http://creativecommons.org/licenses/by-nc-nd/2.0/</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>L’ordinateur le plus puissant en juin 2013 : Tianhe-2
+</p>
+<p>Université 
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique26
+</p>
+<p>33,86 pétaFLOPS33,86 pétaFLOPS
+</p>
+<p>Université 
+chinoise de 
+technologie 
+de défense, à 
+Changsha
+</p>
+<p>tianhe-2 / http://creativecommons.org/licenses/by/2.0/</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Puissance de calcul
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique27</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Petite histoire de 
+l’informatique
+</p>
+<p>Une révolution : 
+</p>
+<p>INTERNET
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique28
+</p>
+<p>INTERNET
+</p>
+<p>Work found at 
+http://it.wikipedia.org/wiki/Fil
+e:Connected-world.jpg / CC 
+BY-SA 3.0
+</p>
+<p>Work found at http://it.wikipedia.org/wiki/File:Connected-world.jpg / CC BY-SA 3.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Internet en 5 dates
+• 1965 : première connexion longue distance
+</p>
+<p>� Entre le Massachussetts et la Californie
+</p>
+<p>• 1969 : création d’ARPANET
+� Un réseau de 4 nœuds (UCLA, SRI, USB, Utah)
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>• 1972 : création de la messagerie électronique
+• Fin des années 80 : NSF développe ARPANET
+</p>
+<p>� Ouverture de 5 serveurs surpuissants permettant de se connecter de 
+</p>
+<p>n’importe où aux USA
+</p>
+<p>• 1992 : Création de l’Internet Society
+� Naissance d’Internet et du Web comme nous le connaissons 
+</p>
+<p>aujourd’hui29</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Nombres d’utilisateurs 
+d’Internet
+</p>
+<p>1000
+</p>
+<p>1500
+</p>
+<p>Milhões
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique30
+</p>
+<p>0
+</p>
+<p>500
+</p>
+<p>En 2013 : 2,5 milliards d'utilisateurs
+[Royal Pingdom]</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>C
+ar
+</p>
+<p>te
+ d
+</p>
+<p>’In
+te
+</p>
+<p>rn
+et
+</p>
+<p> d
+e 
+</p>
+<p>no
+s 
+</p>
+<p>jo
+ur
+</p>
+<p>s
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>C
+ar
+</p>
+<p>te
+ d
+</p>
+<p>’In
+te
+</p>
+<p>rn
+et
+</p>
+<p> d
+e 
+</p>
+<p>no
+s 
+</p>
+<p>jo
+ur
+</p>
+<p>s
+</p>
+<p>31
+</p>
+<p>Work found at http://en.wikipedia.org/wiki/File:Internet_map_1024.jpg / CC BY-SA 3.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Calcul parallèle/distribué
+</p>
+<p>• Superordinateurs 
+� Répartition du travail sur plusieurs calculateurs
+</p>
+<p>� Petits calculs effectuées en parallèle
+</p>
+<p>� Regroupement des résultats
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>� Regroupement des résultats
+</p>
+<p>• Fin des années 1990 : Peut-on faire pareil avec 
+plusieurs ordinateurs en réseau ?
+</p>
+<p>� Moins cher que les supercalculateurs…
+</p>
+<p>32
+</p>
+<p>Crédit image : Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Types de systèmes
+</p>
+<p>Grilles de calculs
+(grappes)
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique33
+</p>
+<p>Multiprocesseur Réseaux locaux, 
+Internet…
+</p>
+<p>Work found at 
+http://en.wikipedia.org/w
+iki/File:BlueGeneL_cabi
+net.jpg / CC BY-SA 3.0
+</p>
+<p>Work found at 
+http://en.wikipedia.org/
+wiki/File:Beowulf.jpg / 
+CC BY-SA 3.0
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/Fi
+le:Internet_Connectivity_Acc
+ess_layer.svg / CC BY-SA 
+3.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Cloud computing
+</p>
+<p>Le nuage cache la 
+</p>
+<p>Question Mark Cloud / 
+http://creativecommons.or
+g/licenses/by/2.0/
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique34
+</p>
+<p>Le nuage cache la 
+complexité
+L’utilisateur utilise toutes 
+les ressources du monde 
+de manière
+transparente, sans savoir 
+où ni qui fournit les 
+services
+</p>
+<p>Par Iox59 (Travail personnel) [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Plan
+</p>
+<p>1. Petite histoire de l’informatique
+2. Définitions
+3.
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>3. Distribution : rêve ou réalité ?
+4. Modélisation / Représentation
+5. Problèmes
+</p>
+<p>35</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Systèmes distribués : 
+Définition 1
+</p>
+<p>Un système informatique distribué est une collection de
+</p>
+<p>postes ou calculateurs autonomes qui sont
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>postes ou calculateurs autonomes qui sont
+</p>
+<p>connectés à l'aide d'un réseau de communication.
+</p>
+<p>Wikipedia, 2013
+</p>
+<p>36
+</p>
+<p>•Les machines sont autonomes.</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Systèmes distribués : 
+Définition II
+</p>
+<p>Un système distribué est une collection d’ordinateurs
+</p>
+<p>indépendants, connectés par l’intermédiaire d’un
+</p>
+<p>réseau, qui apparaissent comme un ordinateur pour les
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>utilisateurs du système.
+</p>
+<p>Andrew Tanenbaum
+</p>
+<p>37
+</p>
+<p>•Les machines sont autonomes.
+•Les utilisateurs ont l’impression d’utiliser une seule 
+machine.
+</p>
+<p>Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Systèmes distribués : 
+Définition III
+</p>
+<p>Un système distribué est un système qui vous empêche
+</p>
+<p>de travailler quand une machine dont vous n’avez
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>de travailler quand une machine dont vous n’avez
+</p>
+<p>jamais entendu parler tombe en panne.
+</p>
+<p>Leslie Lamport
+</p>
+<p>38</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Plan
+</p>
+<p>1. Petite histoire de l’informatique
+2. Définitions
+3.
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>3. Distribution : rêve ou réalité ?
+4. Modélisation / Représentation
+5. Problèmes
+</p>
+<p>39</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Distribution : rêve ou réalité ?
+</p>
+<p>• Existe-t-il des systèmes distribués aujourd’hui ?
+• Où trouve-t-on des systèmes distribués ?
+•
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>• Concrètement, que fait-on avec les systèmes 
+distribués ?
+</p>
+<p>40</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Téléphonie (fixe et mobile)
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique41
+</p>
+<p>Crédit images:  1) By http://en.wikipedia.org/w/index.php?title=Image:Gsm_network.png&amp;action=history (http://en.wikipedia.org/wiki/Image:Gsm_network.png) 
+[GFDL or CC-BY-SA-3.0], via Wikimedia Commons; 2) vintage "Model 746" BT dial telephone / http://creativecommons.org/licenses/by-nc/2.0/; 3) By Anders 
+(Own work) [Public domain], via Wikimedia Commons; 4) Work found at http://en.wikipedia.org/wiki/File:Cell_Phone_Tower.jpg / CC BY-SA 3.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Jeux en réseaux 
+(LAN, MMORPG,…)
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique42
+</p>
+<p>.::KINGDOM of SAND::. [SGS] 
+MMORPG Action Roleplay Game 
+</p>
+<p>System / CC BY-SA 2.0
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:Defend
+ers_of_Ardania_4.jpeg / CC BY-SA 
+3.0
+</p>
+<p>Work found at http://en.wikipedia.org/wiki/File:Winter_2004_DreamHack_LAN_Party.jpg / CC BY-SA 3.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Grands réseaux sociaux
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique43
+</p>
+<p>Que se cache-t-il derrière facebook ???</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Grands réseaux sociaux
+facebook
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique44
+</p>
+<p>Schéma créé à partir de : Workstation and hardware icons / CC BY 2.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Applications de 
+webservice
+</p>
+<p>Courtage temps réel
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique45
+</p>
+<p>Systèmes de réservation
+Crédit images à droite : 1) Budgeting / http://creativecommons.org/licenses/by-sa/2.0/; 2) By Jashuah (Own work by uploader, data from Stooq.com) [CC-BY-
+</p>
+<p>SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pair-à-pair (Peer-to-peer)
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique46
+</p>
+<p>Partage de fichiers dont vous êtes propriétaires sur internet
+</p>
+<p>Computer Workgroup Team Meeting, 
+http://creativecommons.org/licenses/by-sa/2.0/deed.en, via Flickr
+</p>
+<p>eMule Logo / CC BY-NC-SA 2.0, 
+modifiée</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Modélisation 3D
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique47
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:Pol
+ygon_face.jpg / CC BY-SA 3.0
+</p>
+<p>Work found at http://3dmodeling.deviantart.com/art/Agumon-Figurine-106136655 / CC BY-NC-ND 3.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Calcul réparti – Décodage de 
+grande masse de données
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique48
+</p>
+<p>SETI@Home
+DIY Alien invasion / CC BY-NC-ND 2.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Calcul réparti – Calcul 
+scientifique
+</p>
+<p>Simulation des 
+trajectoires de 
+</p>
+<p>particules 
+élémentaires
+LHC@home
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique49
+</p>
+<p>Décodage du génome 
+Genome@home
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:DNA_methylation.jpg / 
+CC BY-SA 3.0
+</p>
+<p>By Julian Herzog (Own work) [CC-BY-SA-3.0], via 
+Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Réseaux de capteurs
+</p>
+<p>Work found at 
+http://en.wikipedia.org/wiki/File:Atom_Z52
+0_vs_1Cent.JPG / CC BY-SA 3.0
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>Surveillance de feux de forêt
+</p>
+<p>50
+</p>
+<p>Image créée à partir de : Plateau Forest (2) / CC BY 2.0
+</p>
+<p>Image créée à partir de : 
+http://nl.wikipedia.org/wiki/Intel_4004 / 
+</p>
+<p>CC BY-SA 3.0 et
+Bumble Bee on White / CC BY-NC-SA 
+</p>
+<p>2.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>En résumé
+</p>
+<p>• Les systèmes distribués sont présents partout, sans 
+que l’utilisateur ne s’en rende compte
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>• Ces systèmes fonctionnent par collaboration en 
+utilisant des algorithmes distribués
+</p>
+<p>51
+</p>
+<p>Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Plan
+</p>
+<p>1. Petite histoire de l’informatique
+2. Définitions
+3.
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>3. Distribution : rêve ou réalité ?
+4. Modélisation / Représentation
+5. Problèmes
+</p>
+<p>52</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Modélisation
+</p>
+<p>• Comment représenter un système distribué ?
+� Notion d’espace : 
+</p>
+<p>Comment sont reliés les acteurs entre eux ?
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>� Notion de temps : 
+</p>
+<p>Dans quel ordre se passent les actions ?
+</p>
+<p>53</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Représentation de 
+l’espace• Graphe 
+</p>
+<p>� Chaque sommet représente un participant
+</p>
+<p>� Chaque arc représente une liaison réseau
+</p>
+<p>A
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>54
+</p>
+<p>E
+</p>
+<p>C
+</p>
+<p>D
+</p>
+<p>B
+</p>
+<p>A peut communiquer 
+avec  B, C et E mais pas avec D
+</p>
+<p>Crédit images : 1) Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons; 2) Site graph of 
+barnesandnoble.com / CC BY 2.0, by Noah Sussman</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Représentation 
+d’un réseau social
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique55
+</p>
+<p>By Calvinius [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Modèles de 
+communication
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique56
+</p>
+<p>Works found at http://resumbrae.com/ub/dms423_f07/17/ / CC BY 2.0
+</p>
+<p>Architecture client-serveur Architecture pair-à-pair</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Représentation du temps
+</p>
+<p>• Diagramme de séquence
+� Une ligne temporelle par acteur
+</p>
+<p>� Une flèche par message transmis et reçu
+</p>
+<p>AA
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique57
+</p>
+<p>A
+</p>
+<p>E
+</p>
+<p>C
+</p>
+<p>D
+</p>
+<p>B
+</p>
+<p>AA
+</p>
+<p>BB
+</p>
+<p>CC
+</p>
+<p>DD
+</p>
+<p>EE
+D envoi son message après B, 
+mais C le reçoit avant !</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Diagramme de séquence
+• Correspond à l’historique d’exécution des 
+</p>
+<p>communications réseaux
+• Avec, en plus, un historique d’exécution pour chacun 
+</p>
+<p>des acteurs, on obtient le comportement global d’un 
+système
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique58
+</p>
+<p>AA
+</p>
+<p>BB
+</p>
+<p>CC
+</p>
+<p>DD
+</p>
+<p>EE
+</p>
+<p>A B C D E
+</p>
+<p>v1 v6 v9 v0 v2 v8 v3 v5 v7 v2
+- - - - - - - - - -
+</p>
+<p>- - - - - - - - - -
+</p>
+<p>- - - - - - - - - -
+</p>
+<p>- - - - - - - - - -
+</p>
+<p>Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Plan
+</p>
+<p>1. Petite histoire de l’informatique
+2. Définitions
+3.
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>3. Distribution : rêve ou réalité ?
+4. Modélisation / Représentation
+5. Problèmes
+</p>
+<p>59</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Problèmes liés à la 
+distribution
+</p>
+<p>• Efficacité
+• Synchronisation
+• Robustesse
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>•
+• Auto-stabilisation / Auto-adaptation
+• …
+</p>
+<p>60</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Efficacité
+</p>
+<p>• Exécution d’une tâche sur un temps « raisonnable »
+� Inférieur à la durée de vie d’un humain…
+</p>
+<p>• La durée de vie d’un programme permet d’en évaluer 
+l’efficacité
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>l’efficacité
+</p>
+<p>� Temps total pour accomplir la tâche
+</p>
+<p>� Pourcentage d’utilisation de chaque acteur
+</p>
+<p>� Nombre de messages échangés
+</p>
+<p>• Comparaison avec les supercalculateurs
+</p>
+<p>61</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Synchronisation
+</p>
+<p>• Coordination des actions
+</p>
+<p>• Eviter qu’un acteur attende indéfiniment une réponse qui ne 
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>viendra jamais
+</p>
+<p>� Introduction de bornes d’attente (timeout)
+</p>
+<p>• Eviter les interblocages
+� Tous les acteurs attendent la réponse d’un autre acteur qui 
+</p>
+<p>attend la réponse d’un autre acteur qui attend la réponse …
+</p>
+<p>62
+</p>
+<p>Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Modèle de communication
+• Synchrone
+</p>
+<p>� Même notion de temps, transmission instantanée, 
+</p>
+<p>généralement bornée
+</p>
+<p>� ex. Messagerie instantanée
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>� ex. Messagerie instantanée
+</p>
+<p>63
+</p>
+<p>On se retrouve après le cours ?
+</p>
+<p>OK, on se retrouve à 13h !
+</p>
+<p>Crédit images : 1) Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons; 2) VIA NetNote Turnkey System 
+- Orange / CC BY 2.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Modèle de communication
+</p>
+<p>• Asynchrone : ex. Mail
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique64
+</p>
+<p>Il sait que j’ai lu 
+sa réponse ?
+</p>
+<p>12h15
+</p>
+<p>12h45
+</p>
+<p>11h00
+</p>
+<p>11h45
+</p>
+<p>13h15
+</p>
+<p>Il sait que j’ai 
+reçu ACK OK ?
+</p>
+<p>Crédit images : 1) Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons; 2) VIA NetNote Turnkey System 
+- Orange / CC BY 2.0</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Interblocage
+</p>
+<p>Les véhicules 
+bleus ne peuvent 
+plus avancer tant 
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique65
+</p>
+<p>plus avancer tant 
+que les véhicules 
+rouges n’auront 
+pas libéré la 
+route…
+</p>
+<p>Gridlock, by Jeanacoa, Creative Commons Attribution-Share Alike 2.5 
+Generic, via  Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Interblocage dans un 
+réseau
+</p>
+<p>A
+</p>
+<p>EB
+</p>
+<p>A demande pose une question a E
+et attend la réponse de E.?
+E ne connaît pas la réponse. E 
+demande à C et attend sa réponse.
+</p>
+<p>?
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique66
+</p>
+<p>E
+</p>
+<p>CD
+</p>
+<p>B
+</p>
+<p>?
+</p>
+<p>C ne connaît pas non plus la réponse. 
+C demande à D et attend sa réponse.
+</p>
+<p>?
+</p>
+<p>? Même D ne connaît pas la réponse !
+D demande à B et attend sa réponse.
+</p>
+<p>Comme B ne connaît pas la réponse,
+B demande à A, qui ne répond pas !
+Et oui ! A attend la réponse de E !!!
+TOUT LE MONDE EST BLOQUÉ !</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Robustesse
+• Eviter que la définition 3 ne survienne !
+</p>
+<p>� Rappel : Un système distribué est un système qui vous 
+empêche de travailler quand une machine dont vous 
+n’avez jamais entendu parler tombe en panne.
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>• Tolérance aux défaillances
+� Avant : correction de bugs dans un algorithme
+� Maintenant : Résoudre des « bugs réseaux »
+</p>
+<p>• Suppression d’interblocage
+• Prévenir les erreurs en cas de plantage de machine
+</p>
+<p>67
+</p>
+<p>Emblem-pen.svg:derivative work: S19991002 (Emblem-pen.svg) [CC-BY-SA-3.0], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Pause insolite
+• Savez-vous d’où vient le mot bug ?
+</p>
+<p>1945
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique68
+</p>
+<p>By Courtesy of the Naval Surface Warfare Center, Dahlgren, VA., 1988. [Public domain], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Vol 501 d’Ariane 5
+</p>
+<p>• Vol inaugural
+</p>
+<p>• 4 juin 1996 – 9h35
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>� Visibilité OK
+</p>
+<p>� Chargement :  4 sondes 
+</p>
+<p>de la mission Cluster
+</p>
+<p>• 370 millions de dollars !
+</p>
+<p>69
+</p>
+<p>By National Reconnaissance Office [Public domain], via Wikimedia Commons</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Vol 501 d’Ariane 5 –
+04/06/96
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique70</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Vol 501 d’Ariane 5
+• Système de guidage réparti
+</p>
+<p>� Appareils informatiques, accéléromètres, gyroscopes, …
+</p>
+<p>• Après 37 secondes de vol
+� Bug informatique dans le SGI � HS
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>� Bug informatique dans le SGI � HS
+</p>
+<p>� Idem dans le SGI de secours � HS
+</p>
+<p>• Après 40 secondes de vol
+� Démarrage du pilote automatique
+</p>
+<p>� Interprétation de signaux incohérents du SGI
+</p>
+<p>71</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Auto-
+organisation/stabilisation
+</p>
+<p>• Augmentation du nombre d’acteurs d’un système 
+distribué
+</p>
+<p>• Modèle client-serveur mal dimensionné
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>But : Chaque acteur est autonome et indépendant
+</p>
+<p>• Émergence d’un comportement global à partir de 
+comportements locaux isolés
+</p>
+<p>72</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Exemple : le OU booléen
+</p>
+<p>• Chaque acteur a une valeur initiale
+� Vrai représenté par un 1
+</p>
+<p>� Faux représenté par un 0
+</p>
+<p>A B A ou B
+</p>
+<p>Faux Faux Faux
+</p>
+<p>Faux Vrai Vrai
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>• Si au moins un acteur est Vrai au départ
+alors résultat global est Vrai
+</p>
+<p>73
+</p>
+<p>Faux Vrai Vrai
+</p>
+<p>Vrai Faux Vrai
+</p>
+<p>Vrai Vrai Vrai</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Exemple : 
+</p>
+<p>• Discussion 2 à 2, acteurs aléatoire
+• Après, les 2 agents auront pour valeur le résultat du 
+</p>
+<p>OU entre leur valeur initiale
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique74</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>Preuve de correction
+• Si tous les acteurs ont 0 initialement
+</p>
+<p>� Aucun ne pourra passer à 1 à la suite d’une interaction 
+</p>
+<p>� Le protocole répondra donc 0 (i.e., faux)
+</p>
+<p>• Si au moins un des acteurs possède la valeur 1
+� Une fois que l’on a la valeur I, on ne peut revenir à 0
+</p>
+<p>Yann Busnel
+Laboratoire d’Informatique de Nantes Atlantique
+</p>
+<p>� Une fois que l’on a la valeur I, on ne peut revenir à 0
+</p>
+<p>� Si les acteurs sont choisis aléatoirement, équitablement, tout 
+</p>
+<p>acteur avec 0 a une probabilité non nulle d’interagir avec un 
+</p>
+<p>acteur ayant pour valeur 1
+</p>
+<p>� Le nombre d’acteur avec une valeur I ne peut que croitre
+</p>
+<p>� Ce nombre converge vers n avec une probabilité 1
+</p>
+<p>� Le protocole répondra donc I (i.e., vrai)
+</p>
+<p>75</p>
+<p/>
+</div>
+<div class="page"><p/>
+<p>ALGORITHMIQUE
+DISTRIBUÉE
+</p>
+<p>Yann BusnelYann Busnel
+UFR Sciences et Techniques (Dpt. Informatique)
+</p>
+<p>LINA (Equipe GDD)</p>
+<p/>
+</div>
+</body></html>

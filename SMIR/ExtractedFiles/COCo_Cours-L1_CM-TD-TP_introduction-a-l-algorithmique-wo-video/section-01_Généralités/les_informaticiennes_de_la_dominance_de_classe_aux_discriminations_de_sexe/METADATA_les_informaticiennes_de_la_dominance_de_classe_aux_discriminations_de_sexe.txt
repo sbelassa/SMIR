@@ -1,0 +1,33 @@
+Metadata of the PDF:
+date : 2015-09-23T09:53:35Z
+pdf:PDFVersion : 1.3
+pdf:docinfo:title : collet info
+xmp:CreatorTool : Pages
+access_permission:modify_annotations : true
+access_permission:can_print_degraded : true
+dcterms:created : 2015-09-23T09:53:35Z
+Last-Modified : 2015-09-23T09:53:35Z
+dcterms:modified : 2015-09-23T09:53:35Z
+dc:format : application/pdf; version=1.3
+title : collet info
+Last-Save-Date : 2015-09-23T09:53:35Z
+pdf:docinfo:creator_tool : Pages
+access_permission:fill_in_form : true
+pdf:docinfo:modified : 2015-09-23T09:53:35Z
+meta:save-date : 2015-09-23T09:53:35Z
+pdf:encrypted : false
+dc:title : collet info
+modified : 2015-09-23T09:53:35Z
+Content-Type : application/pdf
+meta:creation-date : 2015-09-23T09:53:35Z
+created : Wed Sep 23 11:53:35 CEST 2015
+access_permission:extract_for_accessibility : true
+access_permission:assemble_document : true
+xmpTPg:NPages : 17
+Creation-Date : 2015-09-23T09:53:35Z
+access_permission:extract_content : true
+access_permission:can_print : true
+producer : Mac OS X 10.10.4 Quartz PDFContext
+access_permission:can_modify : true
+pdf:docinfo:producer : Mac OS X 10.10.4 Quartz PDFContext
+pdf:docinfo:created : 2015-09-23T09:53:35Z

@@ -1,0 +1,38 @@
+Metadata of the PDF:
+date : 2016-10-03T09:57:01Z
+pdf:PDFVersion : 1.5
+pdf:docinfo:title : Et l’utilisateur là dedans ?
+xmp:CreatorTool : Microsoft® PowerPoint® 2013
+access_permission:modify_annotations : true
+access_permission:can_print_degraded : true
+dc:creator : portcdlh
+dcterms:created : 2016-10-03T09:57:01Z
+Last-Modified : 2016-10-03T09:57:01Z
+dcterms:modified : 2016-10-03T09:57:01Z
+dc:format : application/pdf; version=1.5
+title : Et l’utilisateur là dedans ?
+Last-Save-Date : 2016-10-03T09:57:01Z
+pdf:docinfo:creator_tool : Microsoft® PowerPoint® 2013
+access_permission:fill_in_form : true
+pdf:docinfo:modified : 2016-10-03T09:57:01Z
+meta:save-date : 2016-10-03T09:57:01Z
+pdf:encrypted : false
+dc:title : Et l’utilisateur là dedans ?
+modified : 2016-10-03T09:57:01Z
+Content-Type : application/pdf
+pdf:docinfo:creator : portcdlh
+creator : portcdlh
+meta:author : portcdlh
+meta:creation-date : 2016-10-03T09:57:01Z
+created : Mon Oct 03 11:57:01 CEST 2016
+access_permission:extract_for_accessibility : true
+access_permission:assemble_document : true
+xmpTPg:NPages : 71
+Creation-Date : 2016-10-03T09:57:01Z
+access_permission:extract_content : true
+access_permission:can_print : true
+Author : portcdlh
+producer : Microsoft® PowerPoint® 2013
+access_permission:can_modify : true
+pdf:docinfo:producer : Microsoft® PowerPoint® 2013
+pdf:docinfo:created : 2016-10-03T09:57:01Z

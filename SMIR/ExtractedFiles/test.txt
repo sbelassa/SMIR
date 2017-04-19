@@ -1,0 +1,5 @@
+Apache Tika toolkit, la détection et l’extraction des metadata et le texte 
+à partir des fichiers de différentes formats (comme PPT, XLS, and PDF, JPG, MP3...).
+ À partir d’une interface d’apache tika. Cet outil aide à l’indexation des moteurs de recherche,
+  l’analyse des contenues, identification de la langue,  traduction(Microsoft Translation API)
+   et d’autres opérations, aussi qu’une API disponible pour le développement sous java.

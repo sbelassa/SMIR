@@ -1,0 +1,46 @@
+Metadata of the PDF:
+date : 2013-12-10T11:09:41Z
+pdf:PDFVersion : 1.4
+pdf:docinfo:title : CM_Algo_distribué_2013_rev02
+xmp:CreatorTool : PDFCreator Version 1.7.0
+Keywords : 
+access_permission:modify_annotations : true
+access_permission:can_print_degraded : true
+subject : 
+dc:creator : camila
+dcterms:created : 2013-12-10T11:09:41Z
+Last-Modified : 2013-12-10T11:09:41Z
+dcterms:modified : 2013-12-10T11:09:41Z
+dc:format : application/pdf; version=1.4
+title : CM_Algo_distribué_2013_rev02
+xmpMM:DocumentID : uuid:216e2ff2-63e7-11e3-0000-70c03226da1f
+Last-Save-Date : 2013-12-10T11:09:41Z
+pdf:docinfo:creator_tool : PDFCreator Version 1.7.0
+access_permission:fill_in_form : true
+pdf:docinfo:keywords : 
+pdf:docinfo:modified : 2013-12-10T11:09:41Z
+meta:save-date : 2013-12-10T11:09:41Z
+pdf:encrypted : false
+dc:title : CM_Algo_distribué_2013_rev02
+modified : 2013-12-10T11:09:41Z
+cp:subject : 
+pdf:docinfo:subject : 
+Content-Type : application/pdf
+pdf:docinfo:creator : camila
+creator : camila
+meta:author : camila
+dc:subject : 
+meta:creation-date : 2013-12-10T11:09:41Z
+created : Tue Dec 10 12:09:41 CET 2013
+access_permission:extract_for_accessibility : true
+access_permission:assemble_document : true
+xmpTPg:NPages : 76
+Creation-Date : 2013-12-10T11:09:41Z
+access_permission:extract_content : true
+access_permission:can_print : true
+meta:keyword : 
+Author : camila
+producer : GPL Ghostscript 9.07
+access_permission:can_modify : true
+pdf:docinfo:producer : GPL Ghostscript 9.07
+pdf:docinfo:created : 2013-12-10T11:09:41Z
