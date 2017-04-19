@@ -4,37 +4,22 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.InetAddress;
 import java.util.Map;
 
-import org.apache.http.HttpHost;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.action.search.MultiSearchResponse;
 import org.elasticsearch.action.search.SearchRequestBuilder;
-import org.elasticsearch.action.search.SearchResponse;
-import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.Client;
-import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
-
-import static org.elasticsearch.index.query.QueryBuilders.*;
 import org.elasticsearch.node.Node;
 import org.elasticsearch.node.NodeBuilder;
-import org.elasticsearch.search.SearchHit;
-import org.elasticsearch.search.sort.FieldSortBuilder;
-import org.elasticsearch.search.sort.SortOrder;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-/**
- * 
- * @author salma
- *
- */
-public class IndexMetadata {
-	
+public class IndexContent {
 	private final static String DIRECTORY = "ExtractedFiles"
 			+ "/COCo_Cours-L1_CM-TD-TP_introduction-a-l-algorithmique-wo-video"
 			+ "/section-01_Généralités"
@@ -112,6 +97,22 @@ public class IndexMetadata {
           } else {
             System.err.println("Index creation failed.");
           }
+
+        
+        
+        /**
+         * Search
+         */     
+        	SearchRequestBuilder srb1 = node.client()
+        	    .prepareSearch().setQuery(QueryBuilders.queryString("2013")).setSize(1);
+        	SearchRequestBuilder srb2 = node.client()
+        	    .prepareSearch().setQuery(QueryBuilders.matchQuery("Author", "Éric Languénou")).setSize(1);
+
+        	MultiSearchResponse sr = node.client().prepareMultiSearch()
+        	        .add(srb1)
+        	        //.add(srb2)
+        	        .execute().actionGet();
+        	System.out.println(sr.toString());
 
 
 		
