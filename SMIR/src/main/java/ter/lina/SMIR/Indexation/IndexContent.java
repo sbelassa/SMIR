@@ -67,19 +67,19 @@ public class IndexContent {
 		
 		
         /**
-         * deserializing a json file's content into 'gson' object
+         * Deserializing a json file's content into 'gson' object
          */
         Gson gson = new GsonBuilder().create();/// building a gson object
-        Map jsonMap = gson.fromJson(json, Map.class);/// getting a map for the json file content
-       // System.out.println(jsonMap.get("File_content")); /// testing the map by demanding a field from the json map created from the json file : content-length
+        Map jsonMap = gson.fromJson(json, Map.class);/// Getting a map for the Json file content
+        // System.out.println(jsonMap.get("File_content")); /// Testing the map by demanding a field from the Json map created from the json file : content-length
         
         //System.out.println(jsonMap.toString());
         /**
-         * parsing a string that has json file content, into a JSonObject
+         * Parsing a string that has Json file content, into a JSonObject
          */
         JsonParser parser = new JsonParser();
         JsonObject obj = parser.parse(json).getAsJsonObject();
-        String imgurl = obj.get("File_content").getAsString(); ///getting the File_content field from the json object
+        String imgurl = obj.get("File_content").getAsString(); /// Getting the File_content field from the Json object
         System.out.println(imgurl);
         
         

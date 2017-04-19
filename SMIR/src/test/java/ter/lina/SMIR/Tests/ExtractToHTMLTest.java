@@ -18,6 +18,7 @@ import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 
 import ter.lina.SMIR.Extraction.ExtractToHTML;
+import ter.lina.SMIR.Extraction.IExtractToHTML;
 
 /**
  * testing the extraction of a file's content into HTML 
@@ -27,7 +28,7 @@ import ter.lina.SMIR.Extraction.ExtractToHTML;
 public class ExtractToHTMLTest {
 
 	private final static String MY_FILE = "ExtractedFiles/M1IHM/cours/5 hci design/5 hci design.pdf";
-	private static ExtractToHTML extract;
+	private static IExtractToHTML extract;
 	/**
 	 * 
 	 * @param args

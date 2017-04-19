@@ -22,18 +22,14 @@ import org.xml.sax.SAXException;
  * @author salma
  *
  */
-public class ExtractToHTML {
+public class ExtractToHTML implements IExtractToHTML {
 
 	///private final static String MY_FILE = "ExtractedFiles/M1IHM/cours/5 hci design/5 hci design.pdf";
 		
-	/**
-	 * 
-	 * @param inputFile
-	 * @param outputFile
-	 * @throws SAXException
-	 * @throws TikaException
-	 * @throws IOException
+	/* (non-Javadoc)
+	 * @see ter.lina.SMIR.Extraction.IExtractToHTML#extractFileToHTML(java.lang.String, java.lang.String)
 	 */
+	@Override
 	public void extractFileToHTML(String inputFile,String outputFile) throws  SAXException, TikaException, IOException{
 	   
 		    PrintWriter outputF = new PrintWriter(outputFile);

@@ -6,7 +6,9 @@ import org.apache.tika.exception.TikaException;
 import org.xml.sax.SAXException;
 
 import ter.lina.SMIR.Extraction.ExtractToHTML;
+import ter.lina.SMIR.Extraction.IExtractToHTML;
 import ter.lina.SMIR.Segmentation.FileSegmentation;
+import ter.lina.SMIR.Segmentation.IFileSegmentation;
 
 /**
  * 
@@ -40,8 +42,8 @@ public class MainApp
 	private final static String OUTPUT_SEGMENT_FILENAME = "ExtractedFiles/M1IHM/cours/5 hci design/SegmentedFiles/5 hci design";
 
 	/******/
-	private static  ExtractToHTML extract; /// extracting content of documents
-	private static FileSegmentation segment;/// segmenting file contents
+	private static  IExtractToHTML extract; /// extracting content of documents
+	private static IFileSegmentation segment;/// segmenting file contents
 
 	/**
 	 * 

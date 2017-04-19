@@ -1,6 +1,3 @@
-/**
- * 
- */
 package ter.lina.SMIR.Tests;
 
 /**
