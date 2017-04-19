@@ -12,7 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <elastic.version>5.3.0</elastic.version>
+    <elastic.version>0.90.5</elastic.version>
     <jsf.version>2.2.2</jsf.version>
     <primeFaces.version>3.5</primeFaces.version>
     <primeFacesTheme.version>1.0.10</primeFacesTheme.version>
@@ -48,7 +48,7 @@
           <artifactId>javax.faces</artifactId>
           <version>${jsf.version}</version>
       </dependency>
-
+      
       <dependency>
           <groupId>org.primefaces</groupId>
           <artifactId>primefaces</artifactId>
@@ -73,34 +73,19 @@
         <version>${elastic.version}</version>
     </dependency>
     
-         
-      <dependency>
-    <groupId>org.elasticsearch.client</groupId>
-    <artifactId>transport</artifactId>
-    <version>${elastic.version}</version>
-	</dependency>
-    
-    
     <dependency>
         <groupId>jboss</groupId>
         <artifactId>jboss-j2ee</artifactId>
         <version>${jbossJ2ee.version}</version>
     </dependency>
     
-    <!-- Log4j -->
-
-  <dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-api</artifactId>
-    <version>2.8.2</version>
-  </dependency>
-  
-  
-  <dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.8.2</version>
-  </dependency>
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-nop</artifactId>
+    <version>1.5.5</version>
+</dependency>
+    
     
     <!-- GSON -->
    <dependency>

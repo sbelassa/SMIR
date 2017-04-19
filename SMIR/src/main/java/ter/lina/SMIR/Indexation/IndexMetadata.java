@@ -12,18 +12,13 @@ import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.Client;
-import org.elasticsearch.client.transport.TransportClient;
-import org.elasticsearch.common.settings.Settings;
-import org.elasticsearch.common.transport.InetSocketTransportAddress;
-import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.index.query.QueryBuilder;
 import static org.elasticsearch.index.query.QueryBuilders.*;
 import org.elasticsearch.node.Node;
+import org.elasticsearch.node.NodeBuilder;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.sort.FieldSortBuilder;
 import org.elasticsearch.search.sort.SortOrder;
-import org.elasticsearch.transport.client.PreBuiltTransportClient;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
@@ -77,17 +72,9 @@ public class IndexMetadata {
 		
 		FileInputStream fich = new FileInputStream("ExtractedFiles/M1IHM/cours/5 hci design/meta.json");
 		String json=putInFile(fich);
-        /*Node node = nodeBuilder().node();
-        Client client = node.client();*/	
-		/*
-		TransportClient client = new PreBuiltTransportClient(Settings.EMPTY)
-		        .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("localhost"), 9300));
-		*/
 		
-		
-		Settings settings = Settings.builder()
-		        .put("cluster.name", "myClusterName").build();
-		TransportClient client = new PreBuiltTransportClient(settings);
+        Node node = NodeBuilder.nodeBuilder().node();
+        Client client = node.client();
 		
 		
         /**
