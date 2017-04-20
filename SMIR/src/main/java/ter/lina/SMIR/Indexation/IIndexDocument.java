@@ -4,8 +4,16 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Map;
 
+import org.elasticsearch.client.Client;
+import org.elasticsearch.node.Node;
+
 import com.google.gson.JsonObject;
 
+/**
+ * 
+ * @author salma
+ *
+ */
 public interface IIndexDocument {
 
 	/**
@@ -38,6 +46,7 @@ public interface IIndexDocument {
 	 * @param type
 	 * @throws IOException
 	 */
-	void indexDocument(String inputFile, String index, String id, String type) throws IOException;
+	void indexDocument(String inputFile, String index, String id, String type, Node node, Client client)
+			throws IOException;
 
 }

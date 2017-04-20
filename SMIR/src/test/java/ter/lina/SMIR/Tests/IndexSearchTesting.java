@@ -25,7 +25,7 @@ import ter.lina.SMIR.Indexation.JavaAPIMain;
  * @author salma
  *
  */
-public class IndexTesting {
+public class IndexSearchTesting {
 	private final static String DIRECTORY = "ExtractedFiles"
 			+ "/COCo_Cours-L1_CM-TD-TP_introduction-a-l-algorithmique-wo-video"
 			+ "/section-01_Généralités"
@@ -140,7 +140,7 @@ public class IndexTesting {
          
          /// 4th attempt
         	SearchRequestBuilder srb1 = node.client()
-        	    .prepareSearch().setQuery(QueryBuilders.queryString("2013")).setSize(1);
+        	    .prepareSearch().setQuery(QueryBuilders.queryString("human")).setSize(1);
         	SearchRequestBuilder srb2 = node.client()
         	    .prepareSearch().setQuery(QueryBuilders.matchQuery("Author", "Éric Languénou")).setSize(1);
 

@@ -16,28 +16,23 @@ import java.io.OutputStreamWriter;
  * segment a given file into pages
  */
 public class FileSegmentation implements IFileSegmentation {
-
-private final static String DIRECTORY = "ExtractedFiles"
-		+ "/COCo_Cours-L1_CM-TD-TP_introduction-a-l-algorithmique-wo-video"
-		+ "/section-01_Généralités"
-		+ "/les_informaticiennes_de_la_dominance_de_classe_aux_discriminations_de_sexe/";
-
-private final static String INPUT_FILE_NAME = DIRECTORY + "les_informaticiennes_de_la_dominance_de_classe_aux_discriminations_de_sexe.html";		
-private final static String OUTPUT_PREFIX_FILENAME = DIRECTORY +"test/outputFile";
+/**
+ * the token for segmenting
+ */
 private final static String FILE_SPLIT_TOKEN = "<div class=\"page\">";
 
-
-
-/**
- * 
- */
+/// constructor
 public FileSegmentation() {
 
 	}
 
 
-/* (non-Javadoc)
- * @see ter.lina.SMIR.Segmentation.IFileSegmentation#segmentFileToPages(java.lang.String, java.lang.String, java.lang.String)
+/**
+ * 
+ * @param inputFile the input html file to get content from
+ * @param metaFile where to put the matadata file
+ * @param outputFiles the name for the output files 
+ * @throws IOException
  */
 @Override
 public  void segmentFileToPages(String inputFile,String metaFile,String outputFiles) throws IOException{

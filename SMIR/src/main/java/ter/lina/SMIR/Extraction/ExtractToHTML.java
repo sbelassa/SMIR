@@ -26,8 +26,13 @@ public class ExtractToHTML implements IExtractToHTML {
 
 	///private final static String MY_FILE = "ExtractedFiles/M1IHM/cours/5 hci design/5 hci design.pdf";
 		
-	/* (non-Javadoc)
-	 * @see ter.lina.SMIR.Extraction.IExtractToHTML#extractFileToHTML(java.lang.String, java.lang.String)
+	/**
+	 * 
+	 * @param inputFile
+	 * @param outputFile
+	 * @throws SAXException
+	 * @throws TikaException
+	 * @throws IOException
 	 */
 	@Override
 	public void extractFileToHTML(String inputFile,String outputFile) throws  SAXException, TikaException, IOException{

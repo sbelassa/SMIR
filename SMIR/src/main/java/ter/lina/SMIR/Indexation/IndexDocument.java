@@ -21,8 +21,11 @@ import com.google.gson.JsonParser;
  */
 public class IndexDocument implements IIndexDocument {
 	
-	/* (non-Javadoc)
-	 * @see ter.lina.SMIR.Indexation.IIndexDocument#putInFile(java.io.FileInputStream)
+	/**
+	 * Getting the content of a file in a String 
+	 * @param fich
+	 * @return
+	 * @throws IOException
 	 */
 	@Override
 	public  String putInFile(FileInputStream fich) throws IOException{
@@ -37,14 +40,16 @@ public class IndexDocument implements IIndexDocument {
 			} 
 		
 		String fileAsString = sb.toString();
-		//System.out.println("Contents : " + fileAsString);
+		System.out.println("Contents : " + fileAsString);
 		
 			return fileAsString;
 
 	}
 	
-	/* (non-Javadoc)
-	 * @see ter.lina.SMIR.Indexation.IIndexDocument#jsonToMap(java.lang.String)
+	/**
+	 * Mapping a Json file using Gson
+	 * @param filename
+	 * @return
 	 */
 	@Override
 	public Map jsonToMap(String filename){
@@ -57,8 +62,10 @@ public class IndexDocument implements IIndexDocument {
 	}
 	
 	
-	/* (non-Javadoc)
-	 * @see ter.lina.SMIR.Indexation.IIndexDocument#jsonFileToJsonObject(java.lang.String)
+	/**
+	 * Parsing a string that has json file content, into a JSonObject
+	 * @param filename
+	 * @return
 	 */
 	@Override
 	public JsonObject jsonFileToJsonObject(String filename){
@@ -71,19 +78,20 @@ public class IndexDocument implements IIndexDocument {
 		
 	}
 
-	/* (non-Javadoc)
-	 * @see ter.lina.SMIR.Indexation.IIndexDocument#indexDocument(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	/**
+	 * indexing a given file in elasticsearch
+	 * @param inputFile
+	 * @param index
+	 * @param id
+	 * @param type
+	 * @throws IOException
 	 */
 	@Override
-	public void indexDocument(String inputFile,String index,String id, String type) throws IOException{
+	public void indexDocument(String inputFile,String index,String id, String type,Node node,Client client) throws IOException{
 		
 		FileInputStream fich = new FileInputStream(inputFile);
 		/// Json file into a string
 		String json=putInFile(fich);
-		
-		/// initializing elasticsearch Client and node
-        Node node = NodeBuilder.nodeBuilder().node();
-        Client client = node.client();
 
         /// creating the index
 		IndexResponse response = client.prepareIndex(index,type,id)

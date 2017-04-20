@@ -3,12 +3,17 @@ package ter.lina.SMIR;
 import java.io.IOException;
 
 import org.apache.tika.exception.TikaException;
+import org.elasticsearch.client.Client;
+import org.elasticsearch.node.Node;
+import org.elasticsearch.node.NodeBuilder;
 import org.xml.sax.SAXException;
 
 import ter.lina.SMIR.Extraction.ExtractToHTML;
 import ter.lina.SMIR.Extraction.IExtractToHTML;
 import ter.lina.SMIR.Indexation.IIndexDocument;
 import ter.lina.SMIR.Indexation.IndexDocument;
+import ter.lina.SMIR.Search.ISearch;
+import ter.lina.SMIR.Search.Search;
 import ter.lina.SMIR.Segmentation.FileSegmentation;
 import ter.lina.SMIR.Segmentation.IFileSegmentation;
 
@@ -47,6 +52,7 @@ public class MainApp
 	private static  IExtractToHTML extract; /// extracting content of documents
 	private static IFileSegmentation segment;/// segmenting file contents
 	private static IIndexDocument index; /// indexing a document
+	private static ISearch search; /// searching through a file
 
 	/**
 	 * 
@@ -63,6 +69,7 @@ public class MainApp
     	extract = new ExtractToHTML();
     	segment = new FileSegmentation();
 		index = new IndexDocument();
+		search = new Search();
 		
 		
     	/**
@@ -93,17 +100,32 @@ public class MainApp
     	/**
     	 * Indexation
     	 */
+		/// initializing elasticsearch client and node
+		Node node = NodeBuilder.nodeBuilder().node();
+        Client client = node.client();
+		
 		System.out.println("****************  Indexing the file...");
-    	index.indexDocument("ExtractedFiles/M1IHM/cours/5 hci design/meta.json", "docs", "1", "document");
+    	index.indexDocument("ExtractedFiles/M1IHM/cours/5 hci design/meta.json", "docs", "1", "document",node,client);
 		System.out.println("\n");
-    	
     	
     	/**
     	 * Search
     	 */
 		System.out.println("****************  Searching through the file...");
+		//search.searchValueInField(client, "docs", "document", "File_content", "HCI");
+		search.searchStringInFile(node, "docs", "document", "human");
+		
+		/**
+		 * Evaluation 
+		 */
+		System.out.println("****************  Evaluating results...");
 
-    	///TODO 
+		/// TODO
+		
+		/**
+		 * closing ES client
+		 */
+    	client.close();
 
     
     }
