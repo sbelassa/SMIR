@@ -102,7 +102,8 @@ public class IndexContent {
         
         /**
          * Search
-         */     
+         */
+        
         	SearchRequestBuilder srb1 = node.client()
         	    .prepareSearch().setQuery(QueryBuilders.queryString("2013")).setSize(1);
         	SearchRequestBuilder srb2 = node.client()

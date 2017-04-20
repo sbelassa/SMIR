@@ -7,6 +7,8 @@ import org.xml.sax.SAXException;
 
 import ter.lina.SMIR.Extraction.ExtractToHTML;
 import ter.lina.SMIR.Extraction.IExtractToHTML;
+import ter.lina.SMIR.Indexation.IIndexDocument;
+import ter.lina.SMIR.Indexation.IndexDocument;
 import ter.lina.SMIR.Segmentation.FileSegmentation;
 import ter.lina.SMIR.Segmentation.IFileSegmentation;
 
@@ -44,6 +46,7 @@ public class MainApp
 	/******/
 	private static  IExtractToHTML extract; /// extracting content of documents
 	private static IFileSegmentation segment;/// segmenting file contents
+	private static IIndexDocument index; /// indexing a document
 
 	/**
 	 * 
@@ -55,34 +58,51 @@ public class MainApp
     public static void main( String[] args ) throws IOException, SAXException, TikaException
     {
     	String outputFile = MAIN_DIRECTORY + FILE_DIRECTORY + "/5 hci design.html";
+    	
+    	/// initializing all models
     	extract = new ExtractToHTML();
     	segment = new FileSegmentation();
+		index = new IndexDocument();
+		
 		
     	/**
     	 * Extraction of a file's content
-    	 * input: any file type
-    	 * output: html file (including metadata)
+    	 * Input: any file type
+    	 * Output: HTML file (including Metadata)
     	 */
+		System.out.println("****************  Extracting file's content and metadata...");
     	extract.extractFileToHTML(MY_FILE_PATH,outputFile);
+		System.out.println("\n");
 	
     	/**
     	 * Segmentation the file's content into pages
     	 * input: the html output file from the extraction model
     	 * output: the html files matching each page found on the input file, also the metadata file 
     	 */
+		System.out.println("****************  Segmenting the file...");
     	segment.segmentFileToPages(outputFile, MAIN_DIRECTORY + FILE_DIRECTORY + "/METADATA_5 hci design.html", OUTPUT_SEGMENT_FILENAME);
+		System.out.println("\n");
+
+		
+    	/**
+    	 * adding content to the json file
+    	 */
+    	
+    	/// TODO
     	
     	/**
     	 * Indexation
     	 */
-    	
-    	///TODO 
+		System.out.println("****************  Indexing the file...");
+    	index.indexDocument("ExtractedFiles/M1IHM/cours/5 hci design/meta.json", "docs", "1", "document");
+		System.out.println("\n");
     	
     	
     	/**
     	 * Search
     	 */
-    	
+		System.out.println("****************  Searching through the file...");
+
     	///TODO 
 
     

@@ -56,7 +56,7 @@ import org.elasticsearch.search.SearchHit;
         System.out.println("Type: " + getResponse.getType());
         System.out.println("Id: " + getResponse.getId());
         System.out.println("Version: " + getResponse.getVersion());
-        System.out.println(source);
+        System.out.println("Source: " + source);
         System.out.println("------------------------------");
         
     }
