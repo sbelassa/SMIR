@@ -22,7 +22,7 @@ import com.google.gson.JsonParser;
 import ter.lina.SMIR.Indexation.JavaAPIMain;
 
 /**
- * @author salma
+ * @author salma, samia
  *
  */
 public class IndexSearchTesting {

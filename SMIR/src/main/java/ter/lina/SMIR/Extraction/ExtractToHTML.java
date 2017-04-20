@@ -19,7 +19,7 @@ import org.xml.sax.SAXException;
 
 /**
  * 
- * @author salma
+ * @author salma, samia
  *
  */
 public class ExtractToHTML implements IExtractToHTML {

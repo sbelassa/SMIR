@@ -9,7 +9,7 @@ import junit.framework.TestSuite;
  */
 /**
  * 
- * @author salma
+ * @author salma, samia
  *
  */
 public class AppTest 

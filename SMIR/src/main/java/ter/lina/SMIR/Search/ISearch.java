@@ -3,6 +3,11 @@ package ter.lina.SMIR.Search;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.node.Node;
 
+/**
+ * 
+ * @author salma, samia
+ *
+ */
 public interface ISearch {
 
 	/**

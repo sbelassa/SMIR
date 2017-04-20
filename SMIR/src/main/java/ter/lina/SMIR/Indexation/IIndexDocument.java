@@ -11,7 +11,7 @@ import com.google.gson.JsonObject;
 
 /**
  * 
- * @author salma
+ * @author salma, samia
  *
  */
 public interface IIndexDocument {

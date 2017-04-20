@@ -11,11 +11,6 @@ import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 
 
-/**
- * 
- * 
- *
- */
 public abstract class MyContentHandler implements ContentHandler {
     private String pageTag = "p";
     protected int pageNumber = 0;

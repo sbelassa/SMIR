@@ -16,7 +16,7 @@ import com.google.gson.JsonParser;
 
 /**
  * 
- * @author salma
+ * @author salma, samia
  *
  */
 public class IndexDocument implements IIndexDocument {

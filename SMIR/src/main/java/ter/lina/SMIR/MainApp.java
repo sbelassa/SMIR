@@ -28,7 +28,7 @@ import ter.lina.SMIR.Segmentation.IFileSegmentation;
  * Evaluating the results 
  * 
  * 
- * @author salma
+ * @author salma, samia
  *
  */
 public class MainApp 

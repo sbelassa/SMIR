@@ -1,7 +1,11 @@
 package ter.lina.SMIR.Segmentation;
 
 import java.io.IOException;
-
+/**
+ * 
+ * @author salma, samia
+ *
+ */
 public interface IFileSegmentation {
 
 	/**

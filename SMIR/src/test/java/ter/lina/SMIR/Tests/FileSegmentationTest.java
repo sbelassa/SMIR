@@ -11,7 +11,7 @@ import java.io.OutputStreamWriter;
 
 /**
  * 
- * @author salma
+ * @author salma, samia
  *
  * segment a given file into pages
  */

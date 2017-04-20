@@ -22,7 +22,7 @@ import ter.lina.SMIR.Extraction.IExtractToHTML;
 
 /**
  * testing the extraction of a file's content into HTML 
- * @author salma
+ * @author salma, samia
  *
  */
 public class ExtractToHTMLTest {

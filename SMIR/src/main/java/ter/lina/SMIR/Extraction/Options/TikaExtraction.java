@@ -16,7 +16,7 @@ import org.xml.sax.SAXException;
 /**
  * 
  * extraction with tika, whatever the file extension is
- *
+ * @author salma, samia
  */
 public class TikaExtraction {
 	/**

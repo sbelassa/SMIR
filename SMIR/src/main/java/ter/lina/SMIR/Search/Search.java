@@ -13,7 +13,7 @@ import org.elasticsearch.search.SearchHit;
 
 /**
  * 
- * @author salma
+ * @author salma, samia
  *
  */
 public class Search implements ISearch {
