@@ -118,7 +118,7 @@ public class MainApp
 		/**
 		 * Evaluation 
 		 */
-		System.out.println("****************  Evaluating results...");
+		System.out.println("****************  Evaluating tests...");
 
 		/// TODO
 		
