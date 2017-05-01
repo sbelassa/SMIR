@@ -12,7 +12,6 @@ import com.google.gson.JsonObject;
 /**
  * 
  * @author salma, samia
- *
  */
 public interface IIndexDocument {
 

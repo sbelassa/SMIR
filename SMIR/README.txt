@@ -9,8 +9,9 @@ You can download the project from the git link below:
 
 --> https://github.com/sbelassa/SMIR.git
 
-Here are the different stages of developping this project and what has been completed or not yet on it:
 
+
+Here are the different stages of developping this project and what has been completed or not yet on it:
 
 Extraction:
 --> what has been done:
@@ -26,11 +27,15 @@ Extraction:
 
 
 
+
+
 Segmentation:
 	- the interface 'IFileSegmentation' that takes the output of tika extraction as an HTML file, and
 	 segment the extracted document into pages and returns at the end, segments of HTML documents that 
 	 represent each page of the document.
 	 - the possibility of adding other methods of segmenting files (X-characters...) 
+
+
 
 
 Indexing:
@@ -47,6 +52,8 @@ Indexing:
 	 
 
 
+
+
 Search:
 --> what has been done:
 	- the 'Isearch' interface takes the node, query and index on which we aim to apply our search on
@@ -60,7 +67,10 @@ Search:
 	- Adding more advanced search queries 
 	
 	
+	
+	
 Other perspectives:
+
 Adding a User Interface to the project that facilitates the work of this project when allowing the users
 to choose their documents in order to extract their content and metadata with giving advanced configuration 
 (choosing only certain pages from a document to extract or certain documents from a folder), also giving the
